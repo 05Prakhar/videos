@@ -1,16 +1,21 @@
 <template>
-  <div>
-    <div v-for="(category, index) in contentList" :key="index">
-      <div>{{ category.header }}</div>
-      <div v-for="(item, ind) in category.data" :key="ind">
-        <img
-          :src="`https://i.ytimg.com/vi/${item.videoId}/hqdefault.jpg`"
-          :alt="item.title"
-        >
-        Title: {{ item.title }}
-        Description: {{ item.description }}
-        Date: {{ item.uploadDate }}
-      </div>
+  <div
+    v-for="(category, index) in contentList"
+    :key="index"
+  >
+    <div>{{ category.header }}</div>
+    <div
+      v-for="(item, ind) in category.data"
+      :key="ind"
+      @click="videoClicked(category.headerId, item.dataId)"
+    >
+      <img
+        :src="`https://i.ytimg.com/vi/${item.videoId}/hqdefault.jpg`"
+        :alt="item.title"
+      >
+      Title: {{ item.title }}
+      Description: {{ item.description }}
+      Date: {{ item.uploadDate }}
     </div>
   </div>
 </template>
@@ -24,6 +29,14 @@ export default {
     return {
       contentList,
     }
+  },
+  methods: {
+    videoClicked(header, video) {
+      this.$router.push({
+        name: 'playlist',
+        params: { headerId: header, dataId: video, }
+      });
+    },
   },
 }
 </script>
