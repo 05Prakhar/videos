@@ -1,5 +1,5 @@
-import Listing from '../components/listing.vue';
-import Playlist from '../components/playlist.vue';
+import Listing from '@/components/listing.vue';
+import Playlist from '@/components/playlist.vue';
 
 const routes = [
 	{
