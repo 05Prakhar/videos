@@ -1,17 +1,26 @@
-import Listing from '@/components/listing.vue';
-import Playlist from '@/components/playlist.vue';
+import { HomePage, AddBook } from '@/components';
 
 const routes = [
+	// {
+	// 	path: '/',
+  //   name: 'listing',
+	// 	component: Listing,
+	// },
+	// {
+	// 	path: '/:headerId/playlist/:dataId',
+	// 	name: 'playlist',
+	// 	component: Playlist,
+	// 	props: true,
+	// },
 	{
 		path: '/',
-    name: 'listing',
-		component: Listing,
+		name: 'home',
+		component: HomePage,
 	},
 	{
-		path: '/:headerId/playlist/:dataId',
-		name: 'playlist',
-		component: Playlist,
-		props: true,
+		path: '/add-book',
+		name: 'AddBook',
+		component: AddBook,
 	},
 ];
 
