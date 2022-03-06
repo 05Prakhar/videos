@@ -53,9 +53,7 @@ section {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #ecf0f3;
-  width: 100vw;
-  height: 100vh;
+  margin-top: 100px;
 }
 .add-container {
   border-radius: 20px;

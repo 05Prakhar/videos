@@ -1,26 +1,24 @@
-import { HomePage, AddBook } from '@/components';
+import { BookPage, YTPage, AddBook } from '@/components';
 
 const routes = [
-	// {
-	// 	path: '/',
-  //   name: 'listing',
-	// 	component: Listing,
-	// },
-	// {
-	// 	path: '/:headerId/playlist/:dataId',
-	// 	name: 'playlist',
-	// 	component: Playlist,
-	// 	props: true,
-	// },
 	{
-		path: '/',
-		name: 'home',
-		component: HomePage,
+		path: '/book',
+		name: 'BookPage',
+		component: BookPage,
+	},
+	{
+		path: '/yt',
+		name: 'YTPage',
+		component: YTPage,
 	},
 	{
 		path: '/add-book',
 		name: 'AddBook',
 		component: AddBook,
+	},
+	{
+		path: '/:pathMatch(.*)*',
+		redirect: '/book',
 	},
 ];
 
