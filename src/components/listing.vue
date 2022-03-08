@@ -15,7 +15,7 @@
         <img
           :src="`https://i.ytimg.com/vi/${item.videoId}/hqdefault.jpg`"
           :alt="item.title"
-        >
+        />
         <div class="item-details">
           <div class="item-title">{{ item.title }}</div>
           <div class="item-date">Uploaded On: {{ item.uploadDate }}</div>
@@ -26,31 +26,31 @@
 </template>
 
 <script>
-import contentList from '../assets/Content.json';
+import { contentList } from "@/data";
 
 export default {
-  name: 'Listing',
+  name: "Listing",
   data() {
     return {
       contentList,
-    }
+    };
   },
   methods: {
     videoClicked(header, video) {
       this.$router.push({
-        name: 'playlist',
-        params: { headerId: header, dataId: video, }
+        name: "playlist",
+        params: { headerId: header, dataId: video },
       });
     },
   },
-}
+};
 </script>
 
 <style scoped>
 /* Hide scrollbar for IE, Edge and Firefox */
 .slider {
-  -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none;  /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
   display: flex;
   overflow-x: auto;
 }

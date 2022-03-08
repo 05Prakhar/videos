@@ -442,7 +442,8 @@
   },
   {
     "title": "The Psychology of Money By Morgan Housel",
-    "category": "Finance"
+    "category": "Finance",
+    "image": "https://covers.zlibcdn2.com/covers299/books/ac/c5/21/acc521dcbf15f206f9b8155e68622706.jpg"
   },
   {
     "title": "The Ride of a Lifetime By Robert Iger"
@@ -1159,7 +1160,9 @@
     "title": "Understanding Machine Learning: From Theory to Algorithms",
     "author": "Shai Shalev-Shwartz and Shai Ben-David",
     "category": "Technology",
-    "image": "",
-    "link": ""
+    "imageURL": "",
+    "amazonURL": "",
+    "flipkartURL": "",
+    "downloadURL": ""
   }
 ]

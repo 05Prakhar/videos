@@ -1,9 +1,9 @@
-import BookPage from '@/components/bookPage.vue';
-import YTPage from '@/components/ytPage.vue';
-import AddBook from '@/components/addBooks.vue';
+import BookPage from './bookPage.vue';
+import YTPage from './ytPage.vue';
+import AddBook from './addBooks.vue';
 
 export {
   BookPage,
   YTPage,
   AddBook,
-}
+};

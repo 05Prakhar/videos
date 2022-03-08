@@ -2,11 +2,11 @@
   <template v-if="filteredList && dataId < playlist.length">
     {{ filteredList.header }}
     <button @click="goToListing">Back</button>
-    <div
-      v-for="(item, index) in playlist"
-      :key="index"
-    >
-      <iframe :src="`https://www.youtube.com/embed/${item.videoId}`" frameborder="0"></iframe>
+    <div v-for="(item, index) in playlist" :key="index">
+      <iframe
+        :src="`https://www.youtube.com/embed/${item.videoId}`"
+        frameborder="0"
+      ></iframe>
       <div class="item-details">
         <div class="item-title">Title: {{ item.title }}</div>
         <div class="item-date">Upload Date: {{ item.uploadDate }}</div>
@@ -21,14 +21,14 @@
 </template>
 
 <script>
-import contentList from '../assets/Content.json';
+import { contentList } from "@/data";
 
 export default {
-  name: 'Playlist',
+  name: "Playlist",
   data() {
     return {
       contentList,
-    }
+    };
   },
   props: {
     headerId: {
@@ -42,7 +42,9 @@ export default {
   },
   computed: {
     filteredList() {
-      return this.contentList.filter(val => val.headerId.toString() === this.headerId.toString()).at(0);
+      return this.contentList
+        .filter((val) => val.headerId.toString() === this.headerId.toString())
+        .at(0);
     },
     playlist() {
       return this.filteredList.data;
@@ -51,9 +53,9 @@ export default {
   methods: {
     goToListing() {
       this.$router.push({
-        name: 'listing',
+        name: "listing",
       });
     },
   },
-}
+};
 </script>

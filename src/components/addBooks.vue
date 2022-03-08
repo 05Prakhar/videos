@@ -1,30 +1,38 @@
 <template>
   <section>
     <div class="add-container">
-      <input type="text" placeholder="Title" v-model="titleText">
-      <input type="text" placeholder="Author" v-model="authorText">
-      <input type="text" placeholder="Category" v-model="categoryText">
-      <input type="text" placeholder="Image Link" v-model="imageLink">
-      <input type="text" placeholder="Book Link" v-model="bookLink">
+      <input type="text" placeholder="Title" v-model="titleText" />
+      <input type="text" placeholder="Author" v-model="authorText" />
+      <input type="text" placeholder="Category" v-model="categoryText" />
+      <input type="text" placeholder="Image Link" v-model="imageLink" />
+      <input type="text" placeholder="Download Link" v-model="downloadLink" />
+      <input type="text" placeholder="Amazon Link" v-model="amazonLink" />
+      <input type="text" placeholder="Flipkart Link" v-model="flipkartLink" />
       <div class="button-set">
         <button @click="addItem">Add</button>
         <button @click="clearItem">Clear</button>
       </div>
+      <button @click="modifyFile">Modify List</button>
     </div>
   </section>
 </template>
 
 <script>
+import { Books } from "@/data";
+
 export default {
-  name: 'AddBook',
+  name: "AddBook",
   data() {
     return {
-      titleText: '',
-      authorText: '',
-      categoryText: '',
-      imageLink: '',
-      bookLink: '',
-    }
+      titleText: "",
+      authorText: "",
+      categoryText: "",
+      imageLink: "",
+      downloadLink: "",
+      amazonLink: "",
+      flipkartLink: "",
+      Books,
+    };
   },
   methods: {
     addItem() {
@@ -32,20 +40,49 @@ export default {
         title: this.titleText,
         author: this.authorText,
         category: this.categoryText,
-        image: this.imageLink,
-        link: this.bookLink,
+        imageURL: this.imageLink,
+        downloadURL: this.downloadLink,
+        amazonURL: this.amazonLink,
+        flipkartURL: this.flipkartLink,
       };
-      console.log(payload)
+      console.log(payload);
     },
     clearItem() {
-      this.titleText = '';
-      this.authorText = '';
-      this.categoryText = '';
-      this.imageLink = '';
-      this.bookLink = '';
+      this.titleText = "";
+      this.authorText = "";
+      this.categoryText = "";
+      this.imageLink = "";
+      this.bookLink = "";
+    },
+    modifyFile() {
+      const bk = this.Books;
+      const splitBK = bk
+        .map((el) => ({
+          title: el.title.split(/By|by/).at(0).trim(),
+          author: el.title.split(/By|by/).at(1),
+          category: el.category,
+          imageURL: el.imageURL,
+          amazonURL: el.amazonURL,
+          flipkartURL: el.flipkartURL,
+          downloadURL: el.downloadURL,
+        }))
+        .sort((val) => val.title);
+      const noAuthorBK = splitBK.filter((el) => el.author === undefined);
+      console.log("Split File", splitBK);
+      console.log("Author Missing File", noAuthorBK);
+      // this.download(JSON.stringify(splitBK), "bookWithAuthor.json", "text/plain");
+      // this.download(JSON.stringify(noAuthorBK), "bookWithoutAuthor.json", "text/plain");
+    },
+    download(content, fileName, contentType) {
+      const a = document.createElement("a");
+      const file = new Blob([content], { type: contentType });
+      a.href = URL.createObjectURL(file);
+      a.download = fileName;
+      a.click();
+      a.remove();
     },
   },
-}
+};
 </script>
 
 <style scoped>
@@ -54,6 +91,7 @@ section {
   align-items: center;
   justify-content: center;
   margin-top: 100px;
+  margin-bottom: 50px;
 }
 .add-container {
   border-radius: 20px;
@@ -90,7 +128,7 @@ button {
   outline: none;
   color: white;
   margin-top: 20px;
-  background: #1DA1F2;
+  background: #1da1f2;
   height: 40px;
   border-radius: 20px;
   font-weight: 900;
