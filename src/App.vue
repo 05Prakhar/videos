@@ -36,7 +36,7 @@ body {
 }
 .header-container {
   color: white;
-  padding: 2em;
+  padding: 32px;
   background-color: #232931;
   box-shadow: -2px -2px 8px 1px rgba(161, 161, 201, 0.2), 2px 2px 8px 1px rgba(0, 0, 0, 0.8);
   margin: 30px 35px;

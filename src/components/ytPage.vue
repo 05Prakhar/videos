@@ -39,9 +39,12 @@ export default {
 
 <style scoped>
 section {
-  margin-top: 100px;
+  margin-top: 25px;
   margin-bottom: 50px;
   text-align: center;
+  position: absolute;
+  left: 5%;
+  right: 5%;
 }
 input::placeholder {
   color: gray;
@@ -59,7 +62,6 @@ input {
   box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
 }
 .yt-container {
-  max-width: 1200px;
   margin: 20px 15px;
   display: grid;
   grid-gap: 1rem;

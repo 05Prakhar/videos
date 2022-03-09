@@ -6,6 +6,7 @@
       v-model="searchBook"
       @input="onSearch"
     />
+    <!-- Filter -->
     <div class="book-container">
       <div
         class="book-card"
@@ -48,9 +49,10 @@ export default {
 
 <style scoped>
 section {
-  margin-top: 100px;
+  margin-top: 25px;
   margin-bottom: 50px;
   text-align: center;
+  position: absolute;
 }
 input::placeholder {
   color: gray;
@@ -68,7 +70,6 @@ input {
   box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
 }
 .book-container {
-  max-width: 1200px;
   margin: 20px 15px;
   display: grid;
   grid-gap: 1rem;
@@ -78,9 +79,14 @@ input {
     grid-template-columns: repeat(2, 1fr);
   }
 }
-@media (min-width: 900px) {
+@media (min-width: 900px) and (max-width: 1200px) {
   .book-container {
     grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (min-width: 1200px) {
+  .book-container {
+    grid-template-columns: repeat(4, 1fr);
   }
 }
 .book-card {
