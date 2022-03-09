@@ -39,7 +39,10 @@ export default {
   computed: {
     filteredBooks() {
       if (this.searchBook !== "") {
-        return this.Books.filter((el) => el.title == this.searchBook);
+        return this.Books.filter(
+          (el) =>
+            el.title.toLowerCase().search(this.searchBook.toLowerCase()) !== -1
+        );
       }
       return this.Books;
     },
@@ -49,6 +52,7 @@ export default {
 
 <style scoped>
 section {
+  width: 100%;
   margin-top: 25px;
   margin-bottom: 50px;
   text-align: center;

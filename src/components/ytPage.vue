@@ -29,7 +29,10 @@ export default {
   computed: {
     filteredYT() {
       if (this.searchYT !== "") {
-        return this.YouTube.filter((el) => el.title == this.searchYT);
+        return this.YouTube.filter(
+          (el) =>
+            el.title.toLowerCase().search(this.searchYT.toLowerCase()) !== -1
+        );
       }
       return this.YouTube;
     },
@@ -39,6 +42,7 @@ export default {
 
 <style scoped>
 section {
+  width: 100%;
   margin-top: 25px;
   margin-bottom: 50px;
   text-align: center;
