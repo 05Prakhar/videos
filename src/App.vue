@@ -3,6 +3,7 @@
     <ul>
       <li @click="navigate('BookPage')">Books</li>
       <li @click="navigate('YTPage')">Youtube</li>
+      <li @click="navigate('CourseraPage')">Coursera</li>
       <li @click="navigate('AddBook')">Add Book</li>
     </ul>
   </div>

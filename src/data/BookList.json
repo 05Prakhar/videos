@@ -1,1160 +1,1387 @@
 [
   {
-    "title": "Chanakya Neeti by Radhakrishnan Pillai"
+    "title": "12 Rules for Life: An Antidote to Chaos",
+    "author": "Jordan B Peterson",
+    "category": "Self Help"
   },
   {
-    "title": "Amazon Unbound: Jeff Bezos and the Invention of a Global Empire By Brad Stone",
-    "category": "Business"
+    "title": "21 Lessons for the 21st Century",
+    "author": "Yuval Noah Harari"
   },
   {
-    "title": "A World Without Work: Technology, Automation and How We Should Respond By Daniel Susskind"
+    "title": "30 Days - Change Your Habits, Change Your Life",
+    "author": "Marc Reklau"
   },
   {
-    "title": "A Guide to the Good Life By William Braxton Irvine"
+    "title": "5 Regrets Of Dying",
+    "author": "Bronnie Ware"
+  },
+  {
+    "title": "A Brief Introduction to Neural Networks",
+    "author": "David Kriesel",
+    "category": "Technology"
   },
   {
     "title": "A Few Lessons For Investors and Managers from Warren Buffett",
+    "author": "Peter Bevelin, Warren Buffett",
     "category": "Finance"
   },
   {
-    "title": "A Random Walk Guide to Investing By Burton G Malkiel",
+    "title": "A Guide to the Good Life",
+    "author": "William Braxton Irvine"
+  },
+  {
+    "title": "A Project Guide to UX Design: For User Experience Designers in the Field Or in the Making",
+    "author": "Carolyn Chandler and Russ Unger",
+    "category": "Technology"
+  },
+  {
+    "title": "A Random Walk Down Wall Street",
+    "author": "Burton G Malkiel"
+  },
+  {
+    "title": "A Random Walk Guide to Investing",
+    "author": "Burton G Malkiel",
     "category": "Finance"
   },
   {
-    "title": "A Random Walk Down Wall Street By Burton G Malkiel"
+    "title": "A World Without Work: Technology, Automation and How We Should Respond",
+    "author": "Daniel Susskind"
   },
   {
-    "title": "Alchemy: The Surprising Power of Ideas That Don't Make Sense By Rory Sutherland"
+    "title": "AI And Analytics, Accelerating Business Decisions",
+    "author": "Sameer Dhanrajani",
+    "category": "Technology"
   },
   {
-    "title": "Antifragile: Things That Gain from Disorder By Nassim Nicholas Taleb"
+    "title": "Advanced R",
+    "author": "Hadley Wickham",
+    "category": "Technology"
   },
   {
-    "title": "Balanced Asset Allocation How to Profit in Any Economic Climate By Alex Shahidi",
+    "title": "Agile Product Management",
+    "author": "Roman Pichler",
+    "category": "Technology"
+  },
+  {
+    "title": "Alchemy: The Surprising Power of Ideas That Don't Make Sense",
+    "author": "Rory Sutherland"
+  },
+  {
+    "title": "Amazon Unbound: Jeff Bezos and the Invention of a Global Empire",
+    "author": "Brad Stone",
+    "category": "Business"
+  },
+  {
+    "title": "An Introduction to Statistical Learning",
+    "author": "Gareth James, Daniela Witten, Trevor Hastie, and Robert Tibshirani",
+    "category": "Technology"
+  },
+  {
+    "title": "Antifragile: Things That Gain from Disorder",
+    "author": "Nassim Nicholas Taleb"
+  },
+  {
+    "title": "Applied Artificial Intelligence: A Handbook For Business Leaders",
+    "author": "Mariya Yao, Adelyn Zhou and Marlene Jia"
+  },
+  {
+    "title": "Applied Deep Learning: A Case-Based Approach to Understanding Deep Neural Networks",
+    "author": "Umberto Michelucci",
+    "category": "Technology"
+  },
+  {
+    "title": "Approaching Almost Any Machine Learning Problem",
+    "author": "Abhishek Thakur",
+    "category": "Technology"
+  },
+  {
+    "title": "Artificial Intelligence: A Modern Approach",
+    "author": "Stuart J. Russell & Peter Norvig",
+    "category": "Technology"
+  },
+  {
+    "title": "As A Man Thinketh",
+    "author": "James Allen"
+  },
+  {
+    "title": "Atlas Shrugged",
+    "author": "Ayn Rand"
+  },
+  {
+    "title": "Atomic Habits: An Easy & Proven Way to Build Good Habits and Break Bad Ones",
+    "author": "James Clear"
+  },
+  {
+    "title": "Awakening of Intelligence",
+    "author": "J Krishnamurti",
+    "category": "Self Help"
+  },
+  {
+    "title": "Awareness: The Key to Living in Balance",
+    "author": "Osho",
+    "category": "Self Help"
+  },
+  {
+    "title": "Bad Blood",
+    "author": "John Carreyrou"
+  },
+  {
+    "title": "Balanced Asset Allocation How to Profit in Any Economic Climate",
+    "author": "Alex Shahidi",
     "category": "Finance"
   },
   {
-    "title": "Bank Valuation Demystified By Hamza Zargui",
+    "title": "Bank Valuation Demystified",
+    "author": "Hamza Zargui",
     "category": "Finance"
   },
   {
-    "title": "Before You Startup: How to Prepare to Make Your Startup Dream a Reality By Pankaj Goyal"
+    "title": "Bayesian Methods for Hackers: Probabilistic Programming and Bayesian Inference",
+    "author": "Cameron Davidson-Pilon",
+    "category": "Technology"
   },
   {
-    "title": "Benjamin Franklin By Walter Isaacson"
+    "title": "Before You Startup: How to Prepare to Make Your Startup Dream a Reality",
+    "author": "Pankaj Goyal"
+  },
+  {
+    "title": "Benjamin Franklin",
+    "author": "Walter Isaacson"
   },
   {
     "title": "Berkshire Hathaway Letters to Shareholders 1965 - 2018",
+    "author": "Warren Buffett",
     "category": "Finance"
   },
   {
-    "title": "Best Business Practices For Photographers by John Harrington"
+    "title": "Best Business Practices For Photographers",
+    "author": "John Harrington"
   },
   {
-    "title": "Better Under Pressure By Justin Menkes"
+    "title": "Better Under Pressure",
+    "author": "Justin Menkes"
   },
   {
-    "title": "Beyond the Last Blue Mountain"
+    "title": "Beyond the Last Blue Mountain",
+    "author": "R. M. Lala",
+    "category": "Biography"
   },
   {
-    "title": "Big Mistake The Best Investor and Their Worst Investment By Michael Batnick",
+    "title": "Big Data MBA: Driving Business Strategies with Data Science",
+    "author": "Bill Schmarzo",
+    "category": "Technology"
+  },
+  {
+    "title": "Big Mistake The Best Investor and Their Worst Investment",
+    "author": "Michael Batnick",
     "category": "Finance"
   },
   {
-    "title": "Billion Dollar Whale: The Man Who Fooled Wall Street, Hollywood, and the World By Bradley Hope and Tom Wright"
+    "title": "Billion Dollar Whale: The Man Who Fooled Wall Street, Hollywood, and the World",
+    "author": "Bradley Hope and Tom Wright"
   },
   {
-    "title": "Bounce Back: How to Fail Fast and be Resilient at Work By Susan Kahn"
+    "title": "Blitzscaling",
+    "author": "Chris Yeh and Reid Hoffman"
   },
   {
-    "title": "Brand Seduction By Daryl Weber"
+    "title": "Blue Ocean Strategy",
+    "author": "Renee Mauborgne & W Chan Kim"
   },
   {
-    "title": "Business Adventures By John Brooks"
+    "title": "Bounce Back: How to Fail Fast and be Resilient at Work",
+    "author": "Susan Kahn"
   },
   {
-    "title": "Business Sutra By Devdutt Pattanaik"
+    "title": "Brand Seduction",
+    "author": "Daryl Weber"
   },
   {
-    "title": "Chariots Of The Gods? By Erich Von Däniken"
+    "title": "Business Adventures",
+    "author": "John Brooks"
   },
   {
-    "title": "Coffee Can Investing: The Low Risk Road to Stupendous Wealth By Pranab Uniyal, Rakshit Ranjan, and Saurabh Mukherjee"
+    "title": "Business Sutra",
+    "author": "Devdutt Pattanaik"
   },
   {
-    "title": "Common Stocks & Uncommon Profits By Peter A Fisher",
+    "title": "CEO Excellence: The Six Mindsets That Distinguish the Best Leaders from the Rest",
+    "author": "Carolyn Dewar",
+    "category": "Technology"
+  },
+  {
+    "title": "Can't Hurt Me: Master Your Mind and Defy the Odds",
+    "author": "David Goggins",
+    "category": "Self Help"
+  },
+  {
+    "title": "Chanakya Neeti",
+    "author": "Radhakrishnan Pillai"
+  },
+  {
+    "title": "Chariots Of The Gods?",
+    "author": "Erich Von Däniken"
+  },
+  {
+    "title": "Coffee Can Investing: The Low Risk Road to Stupendous Wealth",
+    "author": "Pranab Uniyal, Rakshit Ranjan, and Saurabh Mukherjee"
+  },
+  {
+    "title": "Common Stocks & Uncommon Profits",
+    "author": "Peter A Fisher",
     "category": "Finance"
   },
   {
-    "title": "Contagious: Why Things Catch On By Jonah Berger"
+    "title": "Consider Phlebas",
+    "author": "Iain M Banks"
   },
   {
-    "title": "Crashed: How a Decade of Financial Crises Changed the World By Adam Tooze"
+    "title": "Contagious: Why Things Catch On",
+    "author": "Jonah Berger"
   },
   {
-    "title": "Crush It: Why NOW Is the Time to Cash In on Your Passion By Gary Vaynerchuk"
+    "title": "Couples That Work",
+    "author": "Jennifer Petriglieri",
+    "category": "Technology"
   },
   {
-    "title": "Crushing It: How Great Entrepreneurs Build Their Business and Influence-and How You Can, Too By Gary Vaynerchuk"
-  },
-  {
-    "title": "Das Kapital By Karl Marx"
-  },
-  {
-    "title": "Deaths of Despair and the Future of Capitalism By Anne Case and Angus Deaton"
-  },
-  {
-    "title": "Deep Work: Rules for Focused Success in a Distracted World By Cal Newport"
-  },
-  {
-    "title": "Direct From Dell By Michael S. Dell"
-  },
-  {
-    "title": "Direct Truth By Kapil"
-  },
-  {
-    "title": "Don't Make Me Think, Revisited: A Common Sense Approach to Web Usability By Steve Krug"
-  },
-  {
-    "title": "Dream Big By Cristiane Correa"
-  },
-  {
-    "title": "Dream With Your Eyes Open By Ronnie Screwvala"
-  },
-  {
-    "title": "Eat People and Other Unpologetic Rules for Game Changing Entrepreneurs By Andy Kessler"
-  },
-  {
-    "title": "Elon Musk By Ashlee Vance"
-  },
-  {
-    "title": "Essentialism: The Disciplined Pursuit of Less By Greg Mckeown"
-  },
-  {
-    "title": "Expected Returns By Antti ilmanen"
-  },
-  {
-    "title": "Flip the Script: Getting People to Think Your Idea is Their Idea By Oren Klaff"
-  },
-  {
-    "title": "Fooled By Randomness: The Hidden Role of Chance in Life & in the Market By Nassim Nicholas Taleb"
-  },
-  {
-    "title": "From Startup to Exit: An Insider's Guide to Launching and Scaling Your Tech Business By Shirish Nadkarni"
-  },
-  {
-    "title": "Getting Results the Agile Way: A Personal Results System for Work & Life By J.D. Meier"
-  },
-  {
-    "title": "Grit by Angela Duckworth"
-  },
-  {
-    "title": "Hacks for Life and Career: A Millennial’s Guide to Making it Big By Sandeep Das"
-  },
-  {
-    "title": "High Growth Handbook By Elad Gil"
-  },
-  {
-    "title": "Hooked: How to Build Habit-Forming Products By Nir Eyal"
-  },
-  {
-    "title": "How to Make Money in Stocks By William J O'neil"
-  },
-  {
-    "title": "How Will You Measure Your Life By Clayton Christensen, James Allworth, and Karen Dillon"
-  },
-  {
-    "title": "Home Deus By Yuval Noah Harari"
-  },
-  {
-    "title": "If Then: How the Simulmatics Corporation Invented the Future By Jill Lepore"
-  },
-  {
-    "title": "Influence: The Psychology of Persuasion By Robert B. Cialdini"
-  },
-  {
-    "title": "Invent and Wander: The Collected Writings of Jeff Bezos"
-  },
-  {
-    "title": "Invested By Daniella Town and Phil Town",
-    "category": "Finance"
-  },
-  {
-    "title": "Invisible Women: Exposing Data Bias in a World Designed for Men By Caroline Criado Perez"
-  },
-  {
-    "title": "Jack Welch and the G.E. Way"
-  },
-  {
-    "title": "Jack: Straight From the Gut By Jack Welch"
-  },
-  {
-    "title": "Laughing At Wallstreet By Chris Camillo"
-  },
-  {
-    "title": "Learn to Earn By John Rothchild and Peter Lynch"
-  },
-  {
-    "title": "Let's Talk Money By Monika Halan"
-  },
-  {
-    "title": "Losing My Virginity By Richard Branson"
-  },
-  {
-    "title": "Man's Search for Meaning By Viktor Frankl"
-  },
-  {
-    "title": "Marketing Management By Philip Kotler, Keven Lane Keller"
-  },
-  {
-    "title": "Master Growth Hacking: The Best-Kept Secret of New-Age Indian Start-ups By Apurva Chamaria"
-  },
-  {
-    "title": "Mastering the Market Cycle By Howard Marks"
-  },
-  {
-    "title": "Measure What Matters: OKRs: The Simple Idea that Drives 10x Growth By John Doerr"
-  },
-  {
-    "title": "Merchants of Doubt: How a Handful of Scientists Obscured the Truth on Issues from Tobacco Smoke to Climate Change By Naomi Oreskes and Erik M Conway"
-  },
-  {
-    "title": "Misbehaving: The Making of Behavioral Economics By Richard Thaler"
-  },
-  {
-    "title": "Money: Master the Game By Tony Robbins",
-    "category": "Finance"
-  },
-  {
-    "title": "More Money Than God By Sebastian Mallaby"
-  },
-  {
-    "title": "Screw Business as Usual By Richard Branson"
-  },
-  {
-    "title": "Never Eat Alone By Keith Ferrazzi"
-  },
-  {
-    "title": "Never Split the Difference: Negotiating as if Your Life Depended on It By Chris Voss"
-  },
-  {
-    "title": "Never Too Late To Startup By Rob Kornblum"
-  },
-  {
-    "title": "No Filter: The Inside Story of Instagram By Sarah Frier"
-  },
-  {
-    "title": "No Rules Rules: Netflix and the Culture of Reinvention By Erin Meyer and Reed Hastings"
-  },
-  {
-    "title": "Nudge: Improving Decisions About Health, Wealth, and Happiness By Richard H. Thaler and Cass R. Sunstein"
-  },
-  {
-    "title": "One From Many By Dee Hock"
-  },
-  {
-    "title": "One Up On Wall Street By Peter Lynch"
-  },
-  {
-    "title": "Only the Paranoid Survive: How to Identify and Exploit the Crisis Points that Challenge Every Business By Andrew Grove"
-  },
-  {
-    "title": "Outliers By Malcolm Gladwell"
-  },
-  {
-    "title": "Persuasive Technology By BJ Fogg"
-  },
-  {
-    "title": "Pitch Anything By Oren Klaff"
-  },
-  {
-    "title": "Predictably Irrational By Dan Ariely"
-  },
-  {
-    "title": ". Principles: Life and Work By Ray Dalio"
-  },
-  {
-    "title": "Quiet: The Power of Introverts in a World That Can't Stop Talking By Susan Cain"
-  },
-  {
-    "title": "Radical Candor By Kim Scott"
-  },
-  {
-    "title": "Reducing the Risk of Black Swans By Larry Swedroe and Kevin Grogan"
-  },
-  {
-    "title": "Range: Why Generalists Triumph in a Specialized World By David Epstein"
-  },
-  {
-    "title": "Reimagining Capitalism in a World on Fire By Rebecca Henderson"
-  },
-  {
-    "title": "Rework By Jason Fried, David Heinemeier Hansson"
-  },
-  {
-    "title": "Romancing the Balance Sheet By Anil Lamba"
-  },
-  {
-    "title": "Sam Walton: Made in America By Sam Walton"
-  },
-  {
-    "title": "Samsung Rising: The Inside Story of the South Korean Giant That Set Out to Beat Apple and Conquer Tech By Geoffrey Cain"
-  },
-  {
-    "title": "Shoe Dog By Phil Knight"
-  },
-  {
-    "title": "Skin in the Game: Hidden Asymmetries in Daily Life By Nassim Nicholas Taleb"
-  },
-  {
-    "title": "So Good They Can't Ignore You By Cal Newport"
-  },
-  {
-    "title": "Start with Why: How Great Leaders Inspire Everyone to Take Action By Simon Sinek"
-  },
-  {
-    "title": "Stress Test: Reflections on Financial Crises By Timothy F. Geithner"
-  },
-  {
-    "title": "Stocks To Riches By Parag Parikh",
-    "category": "Finance"
-  },
-  {
-    "title": "Tax Free Wealth By Tom Wheelwright"
-  },
-  {
-    "title": "The 2-Hour Job Search, Second Edition: Using Technology to Get the Right Job Faster By Steve Dalton"
-  },
-  {
-    "title": "The 10X Rule: The Only Difference Between Success and Failure By Grant Cardone"
-  },
-  {
-    "title": "The $100 Startup By Chris Guillebeau"
-  },
-  {
-    "title": "The 7 Habits of Highly Effective People By Stefen R Covey"
-  },
-  {
-    "title": "The 22 Immutable Laws of Marketing"
-  },
-  {
-    "title": "The 48 Laws of Power By Robert Greene"
-  },
-  {
-    "title": "The 48 Hour Start-up By Fraser Doherty Mbe"
-  },
-  {
-    "title": "The Almanack of Naval Ravikant By Eric Jorgenson"
-  },
-  {
-    "title": "The Antidote By Oliver Burkeman"
-  },
-  {
-    "title": "The Atheist's Guide to Reality: Enjoying Life Without Illusions By Alexander Rosenberg"
-  },
-  {
-    "title": "The Automatic Millionaire: A Powerful One-step Plan to Live & Finish Rich By David Bach"
-  },
-  {
-    "title": "The CEO Factory: Management Lessons from Hindustan Unilever By Sudhir Sitapati"
-  },
-  {
-    "title": "The Clash of Civilizations and the Remaking of World Order By Samuel P. Huntington"
-  },
-  {
-    "title": "The Compound Effect: Jump Start Your Income Your Life Your Success By Darren Hardy"
-  },
-  {
-    "title": "The Culture Code: The Secrets of Highly Successful Groups By Daniel Coyle"
-  },
-  {
-    "title": "The Denial of Death By Ernest Becker"
-  },
-  {
-    "title": "The Education of a Value Investor By Guy Spier"
-  },
-  {
-    "title": "The Effective Executive By Peter Drucker"
-  },
-  {
-    "title": "The Elephant in the Brain By Kevin Simler and Robin Hanson"
-  },
-  {
-    "title": "The Essays of Warren Buffett By Lawrence A Cunningham",
-    "category": "Finance"
-  },
-  {
-    "title": "The Farmer From Merna By Karl Schriftgiesser"
-  },
-  {
-    "title": "The Fountainhead By Ayn Rand"
-  },
-  {
-    "title": "The Goal: A Process of Ongoing Improvement By Eliyahu M. Goldratt"
-  },
-  {
-    "title": "The Hard Things About Hard Things By Ben Horowitz"
-  },
-  {
-    "title": "The High Performance Entrepreneur By Subroto Bagchi"
-  },
-  {
-    "title": "The Innovator's Dilemma By Clayton Christensen"
-  },
-  {
-    "title": "The Last Lecture By Randy Pausch"
-  },
-  {
-    "title": "The Laws of Wealth By Daniel Crosby"
-  },
-  {
-    "title": "The Lean Startup By Eric Ries"
-  },
-  {
-    "title": "The Little Book That Beats the Market By Joel Greenblatt"
-  },
-  {
-    "title": "The Little Book of Common Sense Investing By John C Bogle"
-  },
-  {
-    "title": "The Millionaire Fastlane: Crack the Code to Wealth & Live Rich for a Lifetime By M.J. DeMarco"
-  },
-  {
-    "title": "The Millionaire Next Door: The Surprising Secrets of America's Wealthy By Thomas J Stanley"
-  },
-  {
-    "title": "The Misfit Economy By Alexa Clay and Kyra Maya Phillips"
-  },
-  {
-    "title": "The New Trading for a Living By Dr. Alexander Elder"
-  },
-  {
-    "title": "The Outsiders By William N Thorndike"
-  },
-  {
-    "title": "The Photographer's MBA: Everything You Need to Know for Your Photography Business By Sal Cincotta"
-  },
-  {
-    "title": "The Power of Habit: Why We Do What We Do, and How to Change By Charles Duhigg"
-  },
-  {
-    "title": "The Power of Positive Thinking By Norman Vincent Peale"
-  },
-  {
-    "title": "The Psychology of Money By Morgan Housel",
-    "category": "Finance",
-    "image": "https://covers.zlibcdn2.com/covers299/books/ac/c5/21/acc521dcbf15f206f9b8155e68622706.jpg"
-  },
-  {
-    "title": "The Ride of a Lifetime By Robert Iger"
-  },
-  {
-    "title": "The Secret By Rhonda Byrne"
-  },
-  {
-    "title": "The Selfish Gene By Richard Dawkins"
-  },
-  {
-    "title": "The Snowball By Alice Schroeder"
-  },
-  {
-    "title": "The Startup Way: How Modern Companies Use Entrepreneurial Management to Transform Culture and Drive Long-Term Growth By Eric Ries"
-  },
-  {
-    "title": "The Startup of You By Reid Hoffman and Ben Casnocha"
-  },
-  {
-    "title": "The Tao of Charlie Munger By David Clark",
-    "category": "Finance"
-  },
-  {
-    "title": "The Ten Commandments For Business Failure By Donald R Keough"
-  },
-  {
-    "title": "The Third Door By Alex Banayan"
-  },
-  {
-    "title": "The Third Industrial Revolution By Jeremy Rifkin"
-  },
-  {
-    "title": "The Tipping Point: How Little Things Can Make a Big Difference By Malcolm Gladwell"
-  },
-  {
-    "title": "The Toyota Way By Jeffrey Liker"
-  },
-  {
-    "title": "The Trillion Dollar Coach By Alan Eagle, Eric Schmidt, and Jonathan Rosenberg"
-  },
-  {
-    "title": "The Upstarts By Brad Stone"
-  },
-  {
-    "title": "The Wal-Mart Effect By Charles Fishman"
-  },
-  {
-    "title": "The Warren Buffet Way By Robert G Hagstrom",
-    "category": "Finance"
-  },
-  {
-    "title": "The Wealth of Nations By Adam Smith"
-  },
-  {
-    "title": "This Is Marketing By Seth Godin"
-  },
-  {
-    "title": "Tiny Habits: The Small Changes That Change Everything By BJ Fogg"
-  },
-  {
-    "title": "Trillion Dollar Coach: The Leadership Handbook of Silicon Valley's Bill Campbell By Alan Eagle, Eric Schmidt, and Jonathan Rosenberg"
-  },
-  {
-    "title": "Unconscious Branding By Douglas Van Praet"
-  },
-  {
-    "title": "Unshakeable Your Financial Freedom Playbook Creating Peace in the world of Volatility By Tony Robbins"
-  },
-  {
-    "title": "Venture Deals By Brad Feld & Jason Mendelson"
-  },
-  {
-    "title": "What You Do Is Who You Are By Ben Horowitz"
-  },
-  {
-    "title": "Why zebras don't get ulcers"
-  },
-  {
-    "title": "Winning the Loser's Of Game Timeless Strategies for Successful Investing By Charles D Ellis"
-  },
-  {
-    "title": "Work Your Money, Not Your Life: How to Balance Your Career and Personal Finances to Get What You Want By Roger Ma with Jennifer Ma"
-  },
-  {
-    "title": "You Need a Budget: The Proven System for Breaking the Paycheck-to-Paycheck Cycle, Getting Out of Debt, and Living the Life You Want By Jesse Mecham"
-  },
-  {
-    "title": "Your Money and Your Brain By Jason Zweig"
-  },
-  {
-    "title": "Zen and the Art of Motorcycle Maintenance By Robert M. Pirsig"
-  },
-  {
-    "title": "Zero to One: Notes on Startups, or How to build the future By Peter Thiel"
-  },
-  {
-    "title": "12 Rules for Life: An Antidote to Chaos By Jordan B Peterson",
+    "title": "Courage to be Disliked",
+    "author": "Fumitake Koga and Ichiro Kishimi",
     "category": "Self Help"
   },
   {
-    "title": "21 Lessons for the 21st Century By Yuval Noah Harari"
-  },
-  {
-    "title": "30 Days - Change Your Habits, Change Your Life By Marc Reklau"
-  },
-  {
-    "title": "5 Regrets Of Dying By Bronnie Ware"
-  },
-  {
-    "title": "Superintelligence : Paths, Dangers, Strategies By Nick Bostrom"
-  },
-  {
-    "title": "Einstein: His Life & Universe By Walter Isaacson"
-  },
-  {
-    "title": "Twelve Against the Gods: The Story of Adventure By William Bolitho"
-  },
-  {
-    "title": "The Big Picture: On the Origins of Life, Meaning, and the Universe Itself By Sean Carroll"
-  },
-  {
-    "title": "Atomic Habits: An Easy & Proven Way to Build Good Habits and Break Bad Ones By James Clear"
-  },
-  {
-    "title": "Awakening of Intelligence By J Krishnamurti",
-    "category": "Self Help"
-  },
-  {
-    "title": "As A Man Thinketh By James Allen"
-  },
-  {
-    "title": "Awareness: The Key to Living in Balance By Osho",
-    "category": "Self Help"
-  },
-  {
-    "title": "Atlas Shrugged By Ayn Rand"
-  },
-  {
-    "title": "Bad Blood By John Carreyrou"
-  },
-  {
-    "title": "Can't Hurt Me: Master Your Mind and Defy the Odds By David Goggins",
-    "category": "Self Help"
-  },
-  {
-    "title": "Consider Phlebas By Iain M Banks"
-  },
-  {
-    "title": "Courage to be Disliked By Fumitake Koga and Ichiro Kishimi",
-    "category": "Self Help"
-  },
-  {
-    "title": "Daemon By Daniel Suarez"
-  },
-  {
-    "title": "Discipline Equals Freedom: Field Manual By Jocko Willin"
-  },
-  {
-    "title": "Dune By Frank Herbert"
-  },
-  {
-    "title": "Eat That Frog: 21 Great Ways to Stop Procrastinating and Get More Done in Less Time By Brian Tracy"
-  },
-  {
-    "title": "Emotional Intelligence: Why It Can Matter More Than IQ By Daniel Goleman"
-  },
-  {
-    "title": "Factfulness: Ten Reasons We're Wrong About the World and Why Things Are Better Than You Think By Anna Rosling Rönnlund, Hans Rosling, and Ola Rosling",
-    "category": "Self Help"
-  },
-  {
-    "title": "How to Win Friends and Influence People By Dale Carnegie",
-    "category": "Self Help"
-  },
-  {
-    "title": "If the Universe Is Teeming with Aliens Where Is Everybody?: Seventy-Five Solutions to the Fermi Paradox and the Problem of Extra-terrestrial Life By Stephen Webb"
-  },
-  {
-    "title": "Ignition!: An Informal History of Liquid Rocket Propellants By John Drury Clark"
-  },
-  {
-    "title": "IKIGAI By Hector Garcia & Frencesc Miralles",
-    "category": "Self Help"
-  },
-  {
-    "title": "Indistractable: How to Control Your Attention and Choose Your Life By Nir Eyal"
-  },
-  {
-    "title": "Into The Wild By Jon Krakauer"
-  },
-  {
-    "title": "Linchpin: Are You Indispensable? By Seth Godin",
-    "category": "Self Help"
-  },
-  {
-    "title": "Lying By Sam Harris"
-  },
-  {
-    "title": "Man In Search of Meaning By Viktor Frankl"
-  },
-  {
-    "title": "Mindset: The New Psychology of Success By Carol Dweck"
-  },
-  {
-    "title": "No Excuses: The Power Of Self Discipline By Brian Tracy"
-  },
-  {
-    "title": "On The Shortness of Life By Seneca",
-    "category": "Self Help"
-  },
-  {
-    "title": "Our Final Invention"
-  },
-  {
-    "title": "Prisoners of Geography: Ten Maps That Tell You Everything You Need To Know About Global Politics By Tim Marshall"
-  },
-  {
-    "title": "Proof of Heaven By Eben Alexander",
-    "category": "Self Help"
-  },
-  {
-    "title": "Psycho Cybernetics By Maxwell Maltz"
-  },
-  {
-    "title": "Sapiens: A Brief History of Humankind By Yuval Noah Harari"
-  },
-  {
-    "title": "Siddhartha: An Indian Take By Hermann Hesse"
-  },
-  {
-    "title": "Structures"
-  },
-  {
-    "title": "The 8th Habit By Stephen Covey"
-  },
-  {
-    "title": "The 48 Laws Of Power By Robert Greene"
-  },
-  {
-    "title": "The Art of Thinking Clearly By Rolf Dobelli"
-  },
-  {
-    "title": "The Black Swan By Nassim Nicholas Taleb"
-  },
-  {
-    "title": "The Brain: The Story of You By David Eagleman"
-  },
-  {
-    "title": "The Compound Effect By Darren Hardy"
-  },
-  {
-    "title": "The Courage to be Disliked By Ichiro Kishimi & Fumitake Koga"
-  },
-  {
-    "title": "The Daily Stoic By Ryan Holiday"
-  },
-  {
-    "title": "The Diary Of A Young Girl"
-  },
-  {
-    "title": "The Foundation Series By Isaac Asimov"
-  },
-  {
-    "title": "The Headspace Guide to Meditation and Mindfulness By Andy Puddicombe"
-  },
-  {
-    "title": "The Hitchhiker’s Guide To The Galaxy By Douglas Adams"
-  },
-  {
-    "title": "The Laws of Human Nature By Robert Greene"
-  },
-  {
-    "title": "The Moon Is a Harsh Mistress By Robert A Heinlein"
-  },
-  {
-    "title": "The One Thing By Gary W. Keller and Jay Papasan"
-  },
-  {
-    "title": "The Rudest Book Ever"
-  },
-  {
-    "title": "The Secret By Rhonda Byrne"
-  },
-  {
-    "title": "The Selfish Gene By Richard Dawkins"
-  },
-  {
-    "title": "The Teachings of Don Juan By Carlos Castaneda"
-  },
-  {
-    "title": "The Third Door By Alex Banayan"
-  },
-  {
-    "title": "The Vital Question By Nick Late"
-  },
-  {
-    "title": "Thinking Fast and Slow By Daniel Kahneman"
-  },
-  {
-    "title": "Tools of Titans By Tim Ferriss"
-  },
-  {
-    "title": "Unlimited Power By Tony Robbins"
-  },
-  {
-    "title": "Waking Up By Sam Harris"
-  },
-  {
-    "title": "Who Moved My Cheese By Spencer Johnson"
-  },
-  {
-    "title": "You Are the Placebo By Joe Dispenza"
-  },
-  {
-    "title": "You Can Heal Your Life By Louise Hay"
-  },
-  {
-    "title": "Agile Product Management By Roman Pichler",
+    "title": "Cracking the PM Interview: How to Land a Product Manager Job in Technology",
+    "author": "Gayle Laakmann McDowell",
     "category": "Technology"
   },
   {
-    "title": "Blitzscaling By Chris Yeh and Reid Hoffman"
+    "title": "Crashed: How a Decade of Financial Crises Changed the World",
+    "author": "Adam Tooze"
   },
   {
-    "title": "Blue Ocean Strategy By Renee Mauborgne & W Chan Kim"
-  },
-  {
-    "title": "CEO Excellence: The Six Mindsets That Distinguish the Best Leaders from the Rest By Carolyn Dewar",
+    "title": "Creative Careers",
+    "author": "Jeffrey Madoff",
     "category": "Technology"
   },
   {
-    "title": "Couples That Work By Jennifer Petriglieri",
+    "title": "Crush It: Why NOW Is the Time to Cash In on Your Passion",
+    "author": "Gary Vaynerchuk"
+  },
+  {
+    "title": "Crushing It: How Great Entrepreneurs Build Their Business and Influence-and How You Can, Too",
+    "author": "Gary Vaynerchuk"
+  },
+  {
+    "title": "Daemon",
+    "author": "Daniel Suarez"
+  },
+  {
+    "title": "Das Kapital",
+    "author": "Karl Marx"
+  },
+  {
+    "title": "Data Science (MIT Press Essential Knowledge Series)",
+    "author": "John D. Kelleher",
     "category": "Technology"
   },
   {
-    "title": "Cracking the PM Interview: How to Land a Product Manager Job in Technology By Gayle Laakmann McDowell",
+    "title": "Data Science For Business",
+    "author": "Foster Provost and Tom Fawcett",
     "category": "Technology"
-  },
-  {
-    "title": "Creative Careers By Jeffrey Madoff",
-    "category": "Technology"
-  },
-  {
-    "title": "Designing Brand Identity By Alina Wheeler"
-  },
-  {
-    "title": "Decode and Conquer: Answers to Product Management Interviews By Lewis C. Lin",
-    "category": "Technology"
-  },
-  {
-    "title": "Disrupt Yourself By Whitney Johnson"
-  },
-  {
-    "title": "Escaping the Build Trap: How Effective Product Management Creates Real Value By Melissa Perri",
-    "category": "Technology"
-  },
-  {
-    "title": "Ethics in Design and Communication: Critical Perspectives By Laura Scherling & Andrew DeRosa",
-    "category": "Technology"
-  },
-  {
-    "title": "Fix This Next By Mike Michalowicz",
-    "category": "Technology"
-  },
-  {
-    "title": "Grid Systems in Graphic Design: A Visual Communication Manual for Graphic Designers, Typographers and Three Dimensional Designers By Josef Mülller-Brockmann",
-    "category": "Technology"
-  },
-  {
-    "title": "How to Use Graphic Design to Sell Things, Explain Things, Make Things Look Better, Make People Laugh, Make People Cry, and (every Once in a While) Change the World By Michael Bierut",
-    "category": "Technology"
-  },
-  {
-    "title": "Inspired: How To Create Products Customers Love By Marty Cagan"
-  },
-  {
-    "title": "Lean UX: Designing Great Products with Agile Teams By Jeff Gothelf and Josh Seiden",
-    "category": "Technology"
-  },
-  {
-    "title": "Measure What Matters By John Doerr"
-  },
-  {
-    "title": "Outcomes Over Outputs By Josh Seiden",
-    "category": "Technology"
-  },
-  {
-    "title": "Permission Marketing: Turning Strangers Dislike Into Friends And Friends Into Customers By Seth Godin"
-  },
-  {
-    "title": "Product Leadership By Martin Eriksson, Nate Walkingshaw, and Richard Banfield"
-  },
-  {
-    "title": "Product Management For Dummies By Brian Lawley and Pamela Schure",
-    "category": "Technology"
-  },
-  {
-    "title": "Shape Up: Stop Running in Circles and Ship Work that Matters"
-  },
-  {
-    "title": "Talking to My Daughter about Economy By Yanis Varoufakis"
-  },
-  {
-    "title": "Testing Business Ideas: A Field Guide for Rapid Experimentation By Alexander Osterwalder and David J. Bland"
-  },
-  {
-    "title": "The Design of Everyday Things By Don Norman",
-    "category": "Technology"
-  },
-  {
-    "title": "The Lean Product Playbook By Dan Olsen",
-    "category": "Technology"
-  },
-  {
-    "title": "The Logo Design Idea Book: (Logo Beginners Guide, LOGO Design Basics, Visual Branding Book) By Steven Heller & Gail Anderson",
-    "category": "Technology"
-  },
-  {
-    "title": "The Product Book By Josh Anon, Carlos Gonzalez",
-    "category": "Technology"
-  },
-  {
-    "title": "Think Like a UX Researcher By David Travis and Phillip Hodgson"
-  },
-  {
-    "title": "Uplifting Stories By Ione Butler"
-  },
-  {
-    "title": "Visual Intelligence: Sharpen Your Perception, Change Your Life By Amy Herman",
-    "category": "Technology"
-  },
-  {
-    "title": "Well Designed By Jon Kolko",
-    "category": "Technology"
-  },
-  {
-    "title": "What You Do Is Who You Are: How to Create Your Business Culture By Ben"
-  },
-  {
-    "title": "A Project Guide to UX Design: For User Experience Designers in the Field Or in the Making By Carolyn Chandler and Russ Unger",
-    "category": "Technology"
-  },
-  {
-    "title": "Python in a Nutshell By Alex Marielli (Orielly)",
-    "category": "Technology"
-  },
-  {
-    "title": "Learning Pythin By Mark Lutz (Orielly)",
-    "category": "Technology"
-  },
-  {
-    "title": "Python Crash Course By Eric Matthes",
-    "category": "Technology"
-  },
-  {
-    "title": "Python Programming By John Zelle",
-    "category": "Technology"
-  },
-  {
-    "title": "AI And Analytics, Accelerating Business Decisions By Sameer Dhanrajani",
-    "category": "Technology"
-  },
-  {
-    "title": "Big Data MBA: Driving Business Strategies with Data Science By Bill Schmarzo",
-    "category": "Technology"
-  },
-  {
-    "title": "Marketing Data Science: Modeling Techniques in Predictive Analytics with R and Python By Thomas W Miller",
-    "category": "Technology"
-  },
-  {
-    "title": "Predictive Analytics: The Power to Predict Who Will Click, Buy, Lie, or Die By Eric Siegel",
-    "category": "Technology"
-  },
-  {
-    "title": "Engineering Entrepreneurship from Idea to Business Plan By Paul Swamidass",
-    "category": "Technology"
-  },
-  {
-    "title": "Data Science (MIT Press Essential Knowledge Series) By John D. Kelleher",
-    "category": "Technology"
-  },
-  {
-    "title": "Applied Artificial Intelligence: A Handbook For Business Leaders By Mariya Yao, Adelyn Zhou and Marlene Jia"
-  },
-  {
-    "title": "Data Science For Business By Foster Provost and Tom Fawcett",
-    "category": "Technology"
-  },
-  {
-    "title": "Data Smart: Using Data Science to Transform Information into Insight By John Foreman",
-    "category": "Technology"
-  },
-  {
-    "title": "The Art of Data Science: Written By Roger Peng and Elizabeth Matsui",
-    "category": "Technology"
-  },
-  {
-    "title": "Data Science for Business By Herbert Jones",
-    "category": "Technology"
-  },
-  {
-    "title": "Practical Statistics for Data Scientists: 50 Essential Concepts: Written By Peter Bruce",
-    "category": "Technology"
-  },
-  {
-    "title": "A Brief Introduction to Neural Networks By David Kriesel",
-    "category": "Technology"
-  },
-  {
-    "title": "Advanced R By Hadley Wickham",
-    "category": "Technology"
-  },
-  {
-    "title": "An Introduction to Statistical Learning By Gareth James, Daniela Witten, Trevor Hastie, and Robert Tibshirani",
-    "category": "Technology"
-  },
-  {
-    "title": "Applied Deep Learning: A Case-Based Approach to Understanding Deep Neural Networks By Umberto Michelucci",
-    "category": "Technology"
-  },
-  {
-    "title": ". Approaching Almost Any Machine Learning Problem By Abhishek Thakur",
-    "category": "Technology"
-  },
-  {
-    "title": ". Artificial Intelligence: A Modern Approach By Stuart J. Russell & Peter Norvig",
-    "category": "Technology"
-  },
-  {
-    "title": "Deep Learning Cookbook By Douwe Osinga",
-    "category": "Technology"
-  },
-  {
-    "title": "Designing Data-Intensive Applications By Martin Kleppmann",
-    "category": "Technology"
-  },
-  {
-    "title": "Feature Engineering and Selection: A Practical Approach for Predictive Models By Max Kuhn and Kjell Johnson",
-    "category": "Technology"
-  },
-  {
-    "title": "Hands on Machine Learning By Aurelien Geron",
-    "category": "Technology",
-    "image": ""
-  },
-  {
-    "title": "Machine Learning: A Probabilistic Perspective By Kevin Murphy",
-    "category": "Technology",
-    "image": ""
-  },
-  {
-    "title": "Machine Learning Design Patterns By Valliappa Lakshmanan, Sara Robinson, Michael Munn",
-    "category": "Technology",
-    "image": ""
-  },
-  {
-    "title": "Machine Learning Yearning By Andrew Ng",
-    "category": "Technology",
-    "image": ""
-  },
-  {
-    "title": "Pattern Recognition and Machine Learning By Christopher M. Bishop",
-    "category": "Technology",
-    "image": ""
-  },
-  {
-    "title": "The Practitioner’s Guide To Graph Data By Gosnell & Broecheler",
-    "category": "Technology",
-    "image": ""
-  },
-  {
-    "title": ". Bayesian Methods for Hackers: Probabilistic Programming and Bayesian Inference By Cameron Davidson-Pilon",
-    "category": "Technology",
-    "image": ""
   },
   {
     "title": "Data Science and Big Data Analytics: Discovering, Analyzing, Visualizing and Presenting Data",
-    "category": "Technology",
-    "image": ""
+    "author": "EMC Education Services",
+    "category": "Technology"
   },
   {
-    "title": "Data Science from Scratch: First Principles of Python By Joel Grus",
-    "category": "Technology",
-    "image": ""
+    "title": "Data Science for Business",
+    "author": "Herbert Jones",
+    "category": "Technology"
   },
   {
-    "title": "Deep Learning By MIT Press",
-    "category": "Technology",
-    "image": ""
+    "title": "Data Science from Scratch: First Principles of Python",
+    "author": "Joel Grus",
+    "category": "Technology"
   },
   {
-    "title": "Deep Learning By Ian Goodfelloe, Yoshua Bengio & Aaron Courville",
-    "category": "Technology",
-    "image": ""
+    "title": "Data Smart: Using Data Science to Transform Information into Insight",
+    "author": "John Foreman",
+    "category": "Technology"
   },
   {
-    "title": "Deep Learning Methods and Applications By Li Deng and Dong Yu",
-    "category": "Technology",
-    "image": ""
+    "title": "Deaths of Despair and the Future of Capitalism",
+    "author": "Anne Case and Angus Deaton"
   },
   {
-    "title": "Deep Learning with Python By Francois Chollet",
-    "category": "Technology",
-    "image": ""
+    "title": "Decode and Conquer: Answers to Product Management Interviews",
+    "author": "Lewis C. Lin",
+    "category": "Technology"
   },
   {
-    "title": "Ethics and Data Science By DJ Patil, Hilary Mason, and Mike Loukides",
-    "category": "Technology",
-    "image": ""
+    "title": "Deep Learning",
+    "author": "Ian Goodfelloe, Yoshua Bengio & Aaron Courville",
+    "category": "Technology"
+  },
+  {
+    "title": "Deep Learning",
+    "author": "MIT Press",
+    "category": "Technology"
+  },
+  {
+    "title": "Deep Learning Cookbook",
+    "author": "Douwe Osinga",
+    "category": "Technology"
+  },
+  {
+    "title": "Deep Learning Methods and Applications",
+    "author": "Li Deng and Dong Yu",
+    "category": "Technology"
+  },
+  {
+    "title": "Deep Learning with Python",
+    "author": "Francois Chollet",
+    "category": "Technology"
+  },
+  {
+    "title": "Deep Work: Rules for Focused Success in a Distracted World",
+    "author": "Cal Newport"
+  },
+  {
+    "title": "Designing Brand Identity",
+    "author": "Alina Wheeler"
+  },
+  {
+    "title": "Designing Data-Intensive Applications",
+    "author": "Martin Kleppmann",
+    "category": "Technology"
+  },
+  {
+    "title": "Direct From Dell",
+    "author": "Michael S. Dell"
+  },
+  {
+    "title": "Direct Truth",
+    "author": "Kapil"
+  },
+  {
+    "title": "Discipline Equals Freedom: Field Manual",
+    "author": "Jocko Willin"
+  },
+  {
+    "title": "Disrupt Yourself",
+    "author": "Whitney Johnson"
+  },
+  {
+    "title": "Don't Make Me Think, Revisited: A Common Sense Approach to Web Usability",
+    "author": "Steve Krug"
+  },
+  {
+    "title": "Dream Big",
+    "author": "Cristiane Correa"
+  },
+  {
+    "title": "Dream With Your Eyes Open",
+    "author": "Ronnie Screwvala"
+  },
+  {
+    "title": "Dune",
+    "author": "Frank Herbert"
+  },
+  {
+    "title": "Eat People and Other Unpologetic Rules for Game Changing Entrepreneurs",
+    "author": "Andy Kessler"
+  },
+  {
+    "title": "Eat That Frog: 21 Great Ways to Stop Procrastinating and Get More Done in Less Time",
+    "author": "Brian Tracy"
+  },
+  {
+    "title": "Einstein: His Life & Universe",
+    "author": "Walter Isaacson"
+  },
+  {
+    "title": "Elon Musk",
+    "author": "Ashlee Vance"
+  },
+  {
+    "title": "Emotional Intelligence: Why It Can Matter More Than IQ",
+    "author": "Daniel Goleman"
+  },
+  {
+    "title": "Engineering Entrepreneurship from Idea to Business Plan",
+    "author": "Paul Swamidass",
+    "category": "Technology"
+  },
+  {
+    "title": "Escaping the Build Trap: How Effective Product Management Creates Real Value",
+    "author": "Melissa Perri",
+    "category": "Technology"
+  },
+  {
+    "title": "Essentialism: The Disciplined Pursuit of Less",
+    "author": "Greg Mckeown"
+  },
+  {
+    "title": "Ethics and Data Science",
+    "author": "DJ Patil, Hilary Mason, and Mike Loukides",
+    "category": "Technology"
+  },
+  {
+    "title": "Ethics in Design and Communication: Critical Perspectives",
+    "author": "Laura Scherling & Andrew DeRosa",
+    "category": "Technology"
+  },
+  {
+    "title": "Expected Returns",
+    "author": "Antti ilmanen"
+  },
+  {
+    "title": "Factfulness: Ten Reasons We're Wrong About the World and Why Things Are Better Than You Think",
+    "author": "Anna Rosling Rönnlund, Hans Rosling, and Ola Rosling",
+    "category": "Self Help"
+  },
+  {
+    "title": "Feature Engineering and Selection: A Practical Approach for Predictive Models",
+    "author": "Max Kuhn and Kjell Johnson",
+    "category": "Technology"
   },
   {
     "title": "First Contact with Deep Learning",
-    "category": "Technology",
-    "image": ""
+    "author": "Jordi Torres",
+    "category": "Technology"
   },
   {
-    "title": "Head First Statistics: A Brain-Friendly Guide By Dawn Griffiths",
-    "category": "Technology",
-    "image": ""
+    "title": "Fix This Next",
+    "author": "Mike Michalowicz",
+    "category": "Technology"
   },
   {
-    "title": "Introduction to Machine Learning with Python: A Guide for Data Scientists By Andreas C. Müller and Sarah Guido",
-    "category": "Technology",
-    "image": ""
+    "title": "Flip the Script: Getting People to Think Your Idea is Their Idea",
+    "author": "Oren Klaff"
   },
   {
-    "title": "Introduction to Probability By Joseph K. Blitzstein and Jessica Hwang",
-    "category": "Technology",
-    "image": ""
+    "title": "Fooled By Randomness: The Hidden Role of Chance in Life & in the Market",
+    "author": "Nassim Nicholas Taleb"
   },
   {
-    "title": "Learning Python By Mark Lutz (Orielly)",
-    "category": "Technology",
-    "image": ""
+    "title": "From Startup to Exit: An Insider's Guide to Launching and Scaling Your Tech Business",
+    "author": "Shirish Nadkarni"
+  },
+  {
+    "title": "Getting Results the Agile Way: A Personal Results System for Work & Life",
+    "author": "J.D. Meier"
+  },
+  {
+    "title": "Grid Systems in Graphic Design: A Visual Communication Manual for Graphic Designers, Typographers and Three Dimensional Designers",
+    "author": "Josef Mülller-Brockmann",
+    "category": "Technology"
+  },
+  {
+    "title": "Grit",
+    "author": "Angela Duckworth"
+  },
+  {
+    "title": "Hacks for Life and Career: A Millennial’s Guide to Making it Big",
+    "author": "Sandeep Das"
+  },
+  {
+    "title": "Hands on Machine Learning",
+    "author": "Aurelien Geron",
+    "category": "Technology"
+  },
+  {
+    "title": "Head First Statistics: A Brain-Friendly Guide",
+    "author": "Dawn Griffiths",
+    "category": "Technology"
+  },
+  {
+    "title": "High Growth Handbook",
+    "author": "Elad Gil"
+  },
+  {
+    "title": "Home Deus",
+    "author": "Yuval Noah Harari"
+  },
+  {
+    "title": "Hooked: How to Build Habit-Forming Products",
+    "author": "Nir Eyal"
+  },
+  {
+    "title": "How Will You Measure Your Life",
+    "author": "Clayton Christensen, James Allworth, and Karen Dillon"
+  },
+  {
+    "title": "How to Make Money in Stocks",
+    "author": "William J O'neil"
+  },
+  {
+    "title": "How to Use Graphic Design to Sell Things, Explain Things, Make Things Look Better, Make People Laugh, Make People Cry, and (every Once in a While) Change the World",
+    "author": "Michael Bierut",
+    "category": "Technology"
+  },
+  {
+    "title": "How to Win Friends and Influence People",
+    "author": "Dale Carnegie",
+    "category": "Self Help"
+  },
+  {
+    "title": "IKIGAI",
+    "author": "Hector Garcia & Frencesc Miralles",
+    "category": "Self Help"
+  },
+  {
+    "title": "If Then: How the Simulmatics Corporation Invented the Future",
+    "author": "Jill Lepore"
+  },
+  {
+    "title": "If the Universe Is Teeming with Aliens Where Is Everybody?: Seventy-Five Solutions to the Fermi Paradox and the Problem of Extra-terrestrial Life",
+    "author": "Stephen Webb"
+  },
+  {
+    "title": "Ignition!: An Informal History of Liquid Rocket Propellants",
+    "author": "John Drury Clark"
+  },
+  {
+    "title": "Indistractable: How to Control Your Attention and Choose Your Life",
+    "author": "Nir Eyal"
+  },
+  {
+    "title": "Influence: The Psychology of Persuasion",
+    "author": "Robert B. Cialdini"
+  },
+  {
+    "title": "Inspired: How To Create Products Customers Love",
+    "author": "Marty Cagan"
+  },
+  {
+    "title": "Into The Wild",
+    "author": "Jon Krakauer"
+  },
+  {
+    "title": "Introduction to Machine Learning with Python: A Guide for Data Scientists",
+    "author": "Andreas C. Müller and Sarah Guido",
+    "category": "Technology"
+  },
+  {
+    "title": "Introduction to Probability",
+    "author": "Joseph K. Blitzstein and Jessica Hwang",
+    "category": "Technology"
+  },
+  {
+    "title": "Invent and Wander: The Collected Writings of Jeff Bezos",
+    "author": "Jeff Bezos"
+  },
+  {
+    "title": "Invested",
+    "author": "Daniella Town and Phil Town",
+    "category": "Finance"
+  },
+  {
+    "title": "Invisible Women: Exposing Data Bias in a World Designed for Men",
+    "author": "Caroline Criado Perez"
+  },
+  {
+    "title": "Jack Welch and the G.E. Way: Management Insights and Leadership Secrets of the Legendary CEO",
+    "author": "Robert Slater",
+    "category": "Business"
+  },
+  {
+    "title": "Jack: Straight From the Gut",
+    "author": "Jack Welch"
+  },
+  {
+    "title": "Laughing At Wallstreet",
+    "author": "Chris Camillo"
+  },
+  {
+    "title": "Lean UX: Designing Great Products with Agile Teams",
+    "author": "Jeff Gothelf and Josh Seiden",
+    "category": "Technology"
+  },
+  {
+    "title": "Learn to Earn",
+    "author": "John Rothchild and Peter Lynch"
+  },
+  {
+    "title": "Learning Pythin",
+    "author": "Mark Lutz (Orielly)",
+    "category": "Technology"
+  },
+  {
+    "title": "Learning Python",
+    "author": "Mark Lutz (Orielly)",
+    "category": "Technology"
+  },
+  {
+    "title": "Let's Talk Money",
+    "author": "Monika Halan"
+  },
+  {
+    "title": "Linchpin: Are You Indispensable?",
+    "author": "Seth Godin",
+    "category": "Self Help"
+  },
+  {
+    "title": "Losing My Virginity",
+    "author": "Richard Branson"
+  },
+  {
+    "title": "Lying",
+    "author": "Sam Harris"
+  },
+  {
+    "title": "Machine Learning Design Patterns",
+    "author": "Valliappa Lakshmanan, Sara Robinson, Michael Munn",
+    "category": "Technology"
+  },
+  {
+    "title": "Machine Learning Yearning",
+    "author": "Andrew Ng",
+    "category": "Technology"
   },
   {
     "title": "Machine Learning, Neural and Statistical Classification",
-    "category": "Technology",
-    "image": ""
+    "author": "Donald Michie",
+    "category": "Technology"
   },
   {
-    "title": "Naked Statistics: Stripping the Dread from the Data By Charles Wheelan",
-    "category": "Technology",
-    "image": ""
+    "title": "Machine Learning: A Probabilistic Perspective",
+    "author": "Kevin Murphy",
+    "category": "Technology"
   },
   {
-    "title": "Neural Networks and Deep Learning By Michael Nielsen",
-    "category": "Technology",
-    "image": ""
+    "title": "Man In Search of Meaning",
+    "author": "Viktor Frankl"
   },
   {
-    "title": "Neural Networks and Learning Machines By Simon Haykin",
-    "category": "Technology",
-    "image": ""
+    "title": "Man's Search for Meaning",
+    "author": "Viktor Frankl"
   },
   {
-    "title": "Practical Statistics for Data Scientists",
-    "category": "Technology",
-    "image": ""
+    "title": "Marketing Data Science: Modeling Techniques in Predictive Analytics with R and Python",
+    "author": "Thomas W Miller",
+    "category": "Technology"
   },
   {
-    "title": "Python Crash Course By Eric Matthes",
-    "category": "Technology",
-    "image": ""
+    "title": "Marketing Management",
+    "author": "Philip Kotler, Keven Lane Keller"
   },
   {
-    "title": "Python Data Science Handbook By Orielly",
-    "category": "Technology",
-    "image": ""
+    "title": "Master Growth Hacking: The Best-Kept Secret of New-Age Indian Start-ups",
+    "author": "Apurva Chamaria"
   },
   {
-    "title": "Python For Data Analysis: Data Wrangling with Pandas, NumPy, and IPython By Wes McKinney",
-    "category": "Technology",
-    "image": ""
+    "title": "Mastering the Market Cycle",
+    "author": "Howard Marks"
   },
   {
-    "title": "Python in a Nutshell By Alex Marielli (Orielly)",
-    "category": "Technology",
-    "image": ""
+    "title": "Measure What Matters",
+    "author": "John Doerr"
   },
   {
-    "title": "Python Machine Learning By Example",
-    "category": "Technology",
-    "image": ""
+    "title": "Measure What Matters: OKRs: The Simple Idea that Drives 10x Growth",
+    "author": "John Doerr"
   },
   {
-    "title": "Python Programming By John Zelle",
-    "category": "Technology",
-    "image": ""
+    "title": "Merchants of Doubt: How a Handful of Scientists Obscured the Truth on Issues from Tobacco Smoke to Climate Change",
+    "author": "Naomi Oreskes and Erik M Conway"
   },
   {
-    "title": "R for Data Science By Garret Grolemund and Hadley Wickham",
-    "category": "Technology",
-    "image": ""
+    "title": "Mindset: The New Psychology of Success",
+    "author": "Carol Dweck"
   },
   {
-    "title": "The Elements of Statistical Learning By Trevor Hastie, Robert Tibshirani & Jerome Friedman",
-    "category": "Technology",
-    "image": ""
+    "title": "Misbehaving: The Making of Behavioral Economics",
+    "author": "Richard Thaler"
   },
   {
-    "title": "Think Python By Allen B. Downey",
-    "category": "Technology",
-    "image": ""
+    "title": "Money: Master the Game",
+    "author": "Tony Robbins",
+    "category": "Finance"
   },
   {
-    "title": "Think Stats By Allen B Downy (Orielly)",
-    "category": "Technology",
-    "image": ""
+    "title": "More Money Than God",
+    "author": "Sebastian Malla"
+  },
+  {
+    "title": "Naked Statistics: Stripping the Dread from the Data",
+    "author": "Charles Wheelan",
+    "category": "Technology"
+  },
+  {
+    "title": "Neural Networks and Deep Learning",
+    "author": "Michael Nielsen",
+    "category": "Technology"
+  },
+  {
+    "title": "Neural Networks and Learning Machines",
+    "author": "Simon Haykin",
+    "category": "Technology"
+  },
+  {
+    "title": "Never Eat Alone",
+    "author": "Keith Ferrazzi"
+  },
+  {
+    "title": "Never Split the Difference: Negotiating as if Your Life Depended on It",
+    "author": "Chris Voss"
+  },
+  {
+    "title": "Never Too Late To Startup",
+    "author": "Rob Kornblum"
+  },
+  {
+    "title": "No Excuses: The Power Of Self Discipline",
+    "author": "Brian Tracy"
+  },
+  {
+    "title": "No Filter: The Inside Story of Instagram",
+    "author": "Sarah Frier"
+  },
+  {
+    "title": "No Rules Rules: Netflix and the Culture of Reinvention",
+    "author": "Erin Meyer and Reed Hastings"
+  },
+  {
+    "title": "Nudge: Improving Decisions About Health, Wealth, and Happiness",
+    "author": "Richard H. Thaler and Cass R. Sunstein"
+  },
+  {
+    "title": "On The Shortness of Life",
+    "author": "Seneca",
+    "category": "Self Help"
+  },
+  {
+    "title": "One From Many",
+    "author": "Dee Hock"
+  },
+  {
+    "title": "One Up On Wall Street",
+    "author": "Peter Lynch"
+  },
+  {
+    "title": "Only the Paranoid Survive: How to Identify and Exploit the Crisis Points that Challenge Every Business",
+    "author": "Andrew Grove"
+  },
+  {
+    "title": "Our Final Invention",
+    "author": "James Barrat",
+    "category": "Technology"
+  },
+  {
+    "title": "Outcomes Over Outputs",
+    "author": "Josh Seiden",
+    "category": "Technology"
+  },
+  {
+    "title": "Outliers",
+    "author": "Malcolm Gladwell"
+  },
+  {
+    "title": "Pattern Recognition and Machine Learning",
+    "author": "Christopher M. Bishop",
+    "category": "Technology"
+  },
+  {
+    "title": "Permission Marketing: Turning Strangers Dislike Into Friends And Friends Into Customers",
+    "author": "Seth Godin"
+  },
+  {
+    "title": "Persuasive Technology",
+    "author": "BJ Fogg"
+  },
+  {
+    "title": "Pitch Anything",
+    "author": "Oren Klaff"
+  },
+  {
+    "title": "Practical Statistics for Data Scientists: 50 Essential Concepts Using R and Python",
+    "author": "Andrew Bruce, Peter C. Bruce, and Peter Gedeck",
+    "category": "Technology"
+  },
+  {
+    "title": "Predictably Irrational",
+    "author": "Dan Ariely"
+  },
+  {
+    "title": "Predictive Analytics: The Power to Predict Who Will Click, Buy, Lie, or Die",
+    "author": "Eric Siegel",
+    "category": "Technology"
+  },
+  {
+    "title": "Principles: Life and Work",
+    "author": "Ray Dalio"
+  },
+  {
+    "title": "Prisoners of Geography: Ten Maps That Tell You Everything You Need To Know About Global Politics",
+    "author": "Tim Marshall"
+  },
+  {
+    "title": "Product Leadership",
+    "author": "Martin Eriksson, Nate Walkingshaw, and Richard Banfield"
+  },
+  {
+    "title": "Product Management For Dummies",
+    "author": "Brian Lawley and Pamela Schure",
+    "category": "Technology"
+  },
+  {
+    "title": "Proof of Heaven",
+    "author": "Eben Alexander",
+    "category": "Self Help"
+  },
+  {
+    "title": "Psycho Cybernetics",
+    "author": "Maxwell Maltz"
+  },
+  {
+    "title": "Python Crash Course",
+    "author": "Eric Matthes",
+    "category": "Technology"
+  },
+  {
+    "title": "Python Crash Course",
+    "author": "Eric Matthes",
+    "category": "Technology"
+  },
+  {
+    "title": "Python Data Science Handbook",
+    "author": "Orielly",
+    "category": "Technology"
+  },
+  {
+    "title": "Python For Data Analysis: Data Wrangling with Pandas, NumPy, and IPython",
+    "author": "Wes McKinney",
+    "category": "Technology"
+  },
+  {
+    "title": "Python Machine Learning",
+    "author": "Example",
+    "category": "Technology"
+  },
+  {
+    "title": "Python Programming",
+    "author": "John Zelle",
+    "category": "Technology"
+  },
+  {
+    "title": "Python Programming",
+    "author": "John Zelle",
+    "category": "Technology"
+  },
+  {
+    "title": "Python in a Nutshell",
+    "author": "Alex Marielli (Orielly)",
+    "category": "Technology"
+  },
+  {
+    "title": "Python in a Nutshell",
+    "author": "Alex Marielli (Orielly)",
+    "category": "Technology"
+  },
+  {
+    "title": "Quiet: The Power of Introverts in a World That Can't Stop Talking",
+    "author": "Susan Cain"
+  },
+  {
+    "title": "R for Data Science",
+    "author": "Garret Grolemund and Hadley Wickham",
+    "category": "Technology"
+  },
+  {
+    "title": "Radical Candor",
+    "author": "Kim Scott"
+  },
+  {
+    "title": "Range: Why Generalists Triumph in a Specialized World",
+    "author": "David Epstein"
+  },
+  {
+    "title": "Reducing the Risk of Black Swans",
+    "author": "Larry Swedroe and Kevin Grogan"
+  },
+  {
+    "title": "Reimagining Capitalism in a World on Fire",
+    "author": "Rebecca Henderson"
+  },
+  {
+    "title": "Rework",
+    "author": "Jason Fried, David Heinemeier Hansson"
+  },
+  {
+    "title": "Romancing the Balance Sheet",
+    "author": "Anil Lamba"
+  },
+  {
+    "title": "Sam Walton: Made in America",
+    "author": "Sam Walton"
+  },
+  {
+    "title": "Samsung Rising: The Inside Story of the South Korean Giant That Set Out to Beat Apple and Conquer Tech",
+    "author": "Geoffrey Cain"
+  },
+  {
+    "title": "Sapiens: A Brief History of Humankind",
+    "author": "Yuval Noah Harari"
+  },
+  {
+    "title": "Screw Business as Usual",
+    "author": "Richard Branson"
+  },
+  {
+    "title": "Shape Up: Stop Running in Circles and Ship Work that Matters",
+    "author": "Ryan Singer"
+  },
+  {
+    "title": "Shoe Dog",
+    "author": "Phil Knight"
+  },
+  {
+    "title": "Siddhartha: An Indian Take",
+    "author": "Hermann Hesse"
+  },
+  {
+    "title": "Skin in the Game: Hidden Asymmetries in Daily Life",
+    "author": "Nassim Nicholas Taleb"
+  },
+  {
+    "title": "So Good They Can't Ignore You",
+    "author": "Cal Newport"
+  },
+  {
+    "title": "Start with Why: How Great Leaders Inspire Everyone to Take Action",
+    "author": "Simon Sinek"
+  },
+  {
+    "title": "Stocks To Riches",
+    "author": "Parag Parikh",
+    "category": "Finance"
+  },
+  {
+    "title": "Stress Test: Reflections on Financial Crises",
+    "author": "Timothy F. Geithner"
+  },
+  {
+    "title": "Structures: Or Why Things Don't Fall Down",
+    "author": "J. E. Gordon",
+    "category": "Technology"
+  },
+  {
+    "title": "Superintelligence : Paths, Dangers, Strategies",
+    "author": "Nick Bostrom"
+  },
+  {
+    "title": "Talking to My Daughter about Economy",
+    "author": "Yanis Varoufakis"
+  },
+  {
+    "title": "Tax Free Wealth",
+    "author": "Tom Wheelwright"
+  },
+  {
+    "title": "Testing Business Ideas: A Field Guide for Rapid Experimentation",
+    "author": "Alexander Osterwalder and David J. Bland"
+  },
+  {
+    "title": "The $100 Startup",
+    "author": "Chris Guillebeau"
+  },
+  {
+    "title": "The 10X Rule: The Only Difference Between Success and Failure",
+    "author": "Grant Cardone"
+  },
+  {
+    "title": "The 2-Hour Job Search, Second Edition: Using Technology to Get the Right Job Faster",
+    "author": "Steve Dalton"
+  },
+  {
+    "title": "The 22 Immutable Laws of Marketing",
+    "author": "Al Ries and Jack Trout"
+  },
+  {
+    "title": "The 48 Hour Start-up",
+    "author": "Fraser Doherty Mbe"
+  },
+  {
+    "title": "The 48 Laws Of Power",
+    "author": "Robert Greene"
+  },
+  {
+    "title": "The 48 Laws of Power",
+    "author": "Robert Greene"
+  },
+  {
+    "title": "The 7 Habits of Highly Effective People",
+    "author": "Stefen R Covey"
+  },
+  {
+    "title": "The 8th Habit",
+    "author": "Stephen Covey"
+  },
+  {
+    "title": "The Almanack of Naval Ravikant",
+    "author": "Eric Jorgenson"
+  },
+  {
+    "title": "The Antidote",
+    "author": "Oliver Burkeman"
+  },
+  {
+    "title": "The Art of Data Science",
+    "author": "Roger Peng and Elizabeth Matsui",
+    "category": "Technology"
+  },
+  {
+    "title": "The Art of Thinking Clearly",
+    "author": "Rolf Dobelli"
+  },
+  {
+    "title": "The Atheist's Guide to Reality: Enjoying Life Without Illusions",
+    "author": "Alexander Rosenberg"
+  },
+  {
+    "title": "The Automatic Millionaire: A Powerful One-step Plan to Live & Finish Rich",
+    "author": "David Bach"
+  },
+  {
+    "title": "The Big Picture: On the Origins of Life, Meaning, and the Universe Itself",
+    "author": "Sean Carroll"
+  },
+  {
+    "title": "The Black Swan",
+    "author": "Nassim Nicholas Taleb"
+  },
+  {
+    "title": "The Brain: The Story of You",
+    "author": "David Eagleman"
+  },
+  {
+    "title": "The CEO Factory: Management Lessons from Hindustan Unilever",
+    "author": "Sudhir Sitapati"
+  },
+  {
+    "title": "The Clash of Civilizations and the Remaking of World Order",
+    "author": "Samuel P. Huntington"
+  },
+  {
+    "title": "The Compound Effect",
+    "author": "Darren Hardy"
+  },
+  {
+    "title": "The Compound Effect: Jump Start Your Income Your Life Your Success",
+    "author": "Darren Hardy"
+  },
+  {
+    "title": "The Courage to be Disliked",
+    "author": "Ichiro Kishimi & Fumitake Koga"
+  },
+  {
+    "title": "The Culture Code: The Secrets of Highly Successful Groups",
+    "author": "Daniel Coyle"
+  },
+  {
+    "title": "The Daily Stoic",
+    "author": "Ryan Holiday"
+  },
+  {
+    "title": "The Denial of Death",
+    "author": "Ernest Becker"
+  },
+  {
+    "title": "The Design of Everyday Things",
+    "author": "Don Norman",
+    "category": "Technology"
+  },
+  {
+    "title": "The Diary Of A Young Girl",
+    "author": "Anne Frank",
+    "category": "Biography"
+  },
+  {
+    "title": "The Education of a Value Investor",
+    "author": "Guy Spier"
+  },
+  {
+    "title": "The Effective Executive",
+    "author": "Peter Drucker"
+  },
+  {
+    "title": "The Elements of Statistical Learning",
+    "author": "Trevor Hastie, Robert Tibshirani & Jerome Friedman",
+    "category": "Technology"
+  },
+  {
+    "title": "The Elephant in the Brain",
+    "author": "Kevin Simler and Robin Hanson"
+  },
+  {
+    "title": "The Essays of Warren Buffett",
+    "author": "Lawrence A Cunningham",
+    "category": "Finance"
+  },
+  {
+    "title": "The Farmer From Merna",
+    "author": "Karl Schriftgiesser"
+  },
+  {
+    "title": "The Foundation Series",
+    "author": "Isaac Asimov"
+  },
+  {
+    "title": "The Fountainhead",
+    "author": "Ayn Rand"
+  },
+  {
+    "title": "The Goal: A Process of Ongoing Improvement",
+    "author": "Eliyahu M. Goldratt"
+  },
+  {
+    "title": "The Hard Things About Hard Things",
+    "author": "Ben Horowitz"
+  },
+  {
+    "title": "The Headspace Guide to Meditation and Mindfulness",
+    "author": "Andy Puddicombe"
+  },
+  {
+    "title": "The High Performance Entrepreneur",
+    "author": "Subroto Bagchi"
+  },
+  {
+    "title": "The Hitchhiker’s Guide To The Galaxy",
+    "author": "Douglas Adams"
+  },
+  {
+    "title": "The Innovator's Dilemma",
+    "author": "Clayton Christensen"
+  },
+  {
+    "title": "The Last Lecture",
+    "author": "Randy Pausch"
+  },
+  {
+    "title": "The Laws of Human Nature",
+    "author": "Robert Greene"
+  },
+  {
+    "title": "The Laws of Wealth",
+    "author": "Daniel Cros"
+  },
+  {
+    "title": "The Lean Product Playbook",
+    "author": "Dan Olsen",
+    "category": "Technology"
+  },
+  {
+    "title": "The Lean Startup",
+    "author": "Eric Ries"
+  },
+  {
+    "title": "The Little Book That Beats the Market",
+    "author": "Joel Greenblatt"
+  },
+  {
+    "title": "The Little Book of Common Sense Investing",
+    "author": "John C Bogle"
+  },
+  {
+    "title": "The Logo Design Idea Book: (Logo Beginners Guide, LOGO Design Basics, Visual Branding Book)",
+    "author": "Steven Heller & Gail Anderson",
+    "category": "Technology"
+  },
+  {
+    "title": "The Millionaire Fastlane: Crack the Code to Wealth & Live Rich for a Lifetime",
+    "author": "M.J. DeMarco"
+  },
+  {
+    "title": "The Millionaire Next Door: The Surprising Secrets of America's Wealthy",
+    "author": "Thomas J Stanley"
+  },
+  {
+    "title": "The Misfit Economy",
+    "author": "Alexa Clay and Kyra Maya Phillips"
+  },
+  {
+    "title": "The Moon Is a Harsh Mistress",
+    "author": "Robert A Heinlein"
+  },
+  {
+    "title": "The New Trading for a Living",
+    "author": "Dr. Alexander Elder"
+  },
+  {
+    "title": "The One Thing",
+    "author": "Gary W. Keller and Jay Papasan"
+  },
+  {
+    "title": "The Outsiders",
+    "author": "William N Thorndike"
+  },
+  {
+    "title": "The Photographer's MBA: Everything You Need to Know for Your Photography Business",
+    "author": "Sal Cincotta"
+  },
+  {
+    "title": "The Power of Habit: Why We Do What We Do, and How to Change",
+    "author": "Charles Duhigg"
+  },
+  {
+    "title": "The Power of Positive Thinking",
+    "author": "Norman Vincent Peale"
+  },
+  {
+    "title": "The Practitioner’s Guide To Graph Data",
+    "author": "Gosnell & Broecheler",
+    "category": "Technology"
+  },
+  {
+    "title": "The Product Book",
+    "author": "Josh Anon, Carlos Gonzalez",
+    "category": "Technology"
+  },
+  {
+    "title": "The Psychology of Money",
+    "author": "Morgan Housel",
+    "category": "Finance"
+  },
+  {
+    "title": "The Ride of a Lifetime",
+    "author": "Robert Iger"
+  },
+  {
+    "title": "The Rudest Book Ever",
+    "author": "Shwetabh Gangwar",
+    "category": "Self Help"
+  },
+  {
+    "title": "The Secret",
+    "author": "Rhonda"
+  },
+  {
+    "title": "The Secret",
+    "author": "Rhonda"
+  },
+  {
+    "title": "The Selfish Gene",
+    "author": "Richard Dawkins"
+  },
+  {
+    "title": "The Selfish Gene",
+    "author": "Richard Dawkins"
+  },
+  {
+    "title": "The Snowball",
+    "author": "Alice Schroeder"
+  },
+  {
+    "title": "The Startup Way: How Modern Companies Use Entrepreneurial Management to Transform Culture and Drive Long-Term Growth",
+    "author": "Eric Ries"
+  },
+  {
+    "title": "The Startup of You",
+    "author": "Reid Hoffman and Ben Casnocha"
+  },
+  {
+    "title": "The Tao of Charlie Munger",
+    "author": "David Clark",
+    "category": "Finance"
+  },
+  {
+    "title": "The Teachings of Don Juan",
+    "author": "Carlos Castaneda"
+  },
+  {
+    "title": "The Ten Commandments For Business Failure",
+    "author": "Donald R Keough"
+  },
+  {
+    "title": "The Third Door",
+    "author": "Alex Banayan"
+  },
+  {
+    "title": "The Third Door",
+    "author": "Alex Banayan"
+  },
+  {
+    "title": "The Third Industrial Revolution",
+    "author": "Jeremy Rifkin"
+  },
+  {
+    "title": "The Tipping Point: How Little Things Can Make a Big Difference",
+    "author": "Malcolm Gladwell"
+  },
+  {
+    "title": "The Toyota Way",
+    "author": "Jeffrey Liker"
+  },
+  {
+    "title": "The Trillion Dollar Coach",
+    "author": "Alan Eagle, Eric Schmidt, and Jonathan Rosenberg"
+  },
+  {
+    "title": "The Upstarts",
+    "author": "Brad Stone"
+  },
+  {
+    "title": "The Vital Question",
+    "author": "Nick Late"
+  },
+  {
+    "title": "The Wal-Mart Effect",
+    "author": "Charles Fishman"
+  },
+  {
+    "title": "The Warren Buffet Way",
+    "author": "Robert G Hagstrom",
+    "category": "Finance"
+  },
+  {
+    "title": "The Wealth of Nations",
+    "author": "Adam Smith"
+  },
+  {
+    "title": "Think Like a UX Researcher",
+    "author": "David Travis and Phillip Hodgson"
+  },
+  {
+    "title": "Think Python",
+    "author": "Allen B. Downey",
+    "category": "Technology"
+  },
+  {
+    "title": "Think Stats",
+    "author": "Allen B Downy (Orielly)",
+    "category": "Technology"
+  },
+  {
+    "title": "Thinking Fast and Slow",
+    "author": "Daniel Kahneman"
+  },
+  {
+    "title": "This Is Marketing",
+    "author": "Seth Godin"
+  },
+  {
+    "title": "Tiny Habits: The Small Changes That Change Everything",
+    "author": "BJ Fogg"
+  },
+  {
+    "title": "Tools of Titans",
+    "author": "Tim Ferriss"
+  },
+  {
+    "title": "Trillion Dollar Coach: The Leadership Handbook of Silicon Valley's Bill Campbell",
+    "author": "Alan Eagle, Eric Schmidt, and Jonathan Rosenberg"
+  },
+  {
+    "title": "Twelve Against the Gods: The Story of Adventure",
+    "author": "William Bolitho"
+  },
+  {
+    "title": "Unconscious Branding",
+    "author": "Douglas Van Praet"
   },
   {
     "title": "Understanding Machine Learning: From Theory to Algorithms",
@@ -1164,5 +1391,84 @@
     "amazonURL": "",
     "flipkartURL": "",
     "downloadURL": ""
+  },
+  {
+    "title": "Unlimited Power",
+    "author": "Tony Robbins"
+  },
+  {
+    "title": "Unshakeable Your Financial Freedom Playbook Creating Peace in the world of Volatility",
+    "author": "Tony Robbins"
+  },
+  {
+    "title": "Uplifting Stories",
+    "author": "Ione Butler"
+  },
+  {
+    "title": "Venture Deals",
+    "author": "Brad Feld & Jason Mendelson"
+  },
+  {
+    "title": "Visual Intelligence: Sharpen Your Perception, Change Your Life",
+    "author": "Amy Herman",
+    "category": "Technology"
+  },
+  {
+    "title": "Waking Up",
+    "author": "Sam Harris"
+  },
+  {
+    "title": "Well Designed",
+    "author": "Jon Kolko",
+    "category": "Technology"
+  },
+  {
+    "title": "What You Do Is Who You Are",
+    "author": "Ben Horowitz"
+  },
+  {
+    "title": "What You Do Is Who You Are: How to Create Your Business Culture",
+    "author": "Ben"
+  },
+  {
+    "title": "Who Moved My Cheese",
+    "author": "Spencer Johnson"
+  },
+  {
+    "title": "Why zebras don't get ulcers",
+    "author": "Robert Sapolsky",
+    "category": "Self Help"
+  },
+  {
+    "title": "Winning the Loser's Of Game Timeless Strategies for Successful Investing",
+    "author": "Charles D Ellis"
+  },
+  {
+    "title": "Work Your Money, Not Your Life: How to Balance Your Career and Personal Finances to Get What You Want",
+    "author": "Roger Ma with Jennifer Ma"
+  },
+  {
+    "title": "You Are the Placebo",
+    "author": "Joe Dispenza"
+  },
+  {
+    "title": "You Can Heal Your Life",
+    "author": "Louise Hay"
+  },
+  {
+    "title": "You Need a Budget: The Proven System for Breaking the Paycheck-to-Paycheck Cycle, Getting Out of Debt, and Living the Life You Want",
+    "author": "Jesse Mecham"
+  },
+  {
+    "title": "Your Money and Your Brain",
+    "author": "Jason Zweig"
+  },
+  {
+    "title": "Zen and the Art of Motorcycle Maintenance",
+    "author": "Robert M. Pirsig"
+  },
+  {
+    "title": "Zero to One: Notes on Startups, or How to build the future",
+    "author": "Peter Thiel"
   }
 ]

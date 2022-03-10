@@ -18,7 +18,7 @@
 </template>
 
 <script>
-import { Books } from "@/data";
+import { Courses } from "@/data";
 
 export default {
   name: "AddBook",
@@ -31,7 +31,7 @@ export default {
       downloadLink: "",
       amazonLink: "",
       flipkartLink: "",
-      Books,
+      Courses,
     };
   },
   methods: {
@@ -55,22 +55,30 @@ export default {
       this.bookLink = "";
     },
     modifyFile() {
-      const bk = this.Books;
-      const splitBK = bk
-        .map((el) => ({
-          title: el.title.split(/By|by/).at(0).trim(),
-          author: el.title.split(/By|by/).at(1),
-          category: el.category,
-          imageURL: el.imageURL,
-          amazonURL: el.amazonURL,
-          flipkartURL: el.flipkartURL,
-          downloadURL: el.downloadURL,
-        }))
-        .sort((val) => val.title);
-      const noAuthorBK = splitBK.filter((el) => el.author === undefined);
-      console.log("Split File", splitBK);
-      console.log("Author Missing File", noAuthorBK);
-      // this.download(JSON.stringify(splitBK), "bookWithAuthor.json", "text/plain");
+      // const bk = this.Courses;
+      // const splitBK = bk
+      //   .map((el) => ({
+      //     title: el.title.split(/By|by/).at(0),
+      //     author: el.title.split(/By|by/).at(1) || el.author,
+      //     category: el.category,
+      //     imageURL: el.imageURL,
+      //     amazonURL: el.amazonURL,
+      //     flipkartURL: el.flipkartURL,
+      //     downloadURL: el.downloadURL,
+      //   }))
+      //   .map((el) => ({
+      //     title: el.title.trim(),
+      //     author: el.author.trim(),
+      //     category: el.category,
+      //     imageURL: el.imageURL,
+      //     amazonURL: el.amazonURL,
+      //     flipkartURL: el.flipkartURL,
+      //     downloadURL: el.downloadURL,
+      //   }))
+      //   .sort((a, b) => (a.title > b.title) ? 1 : -1);
+      // const noAuthorBK = splitBK.filter((el) => el.author === undefined);
+      // const splitBK = bk.sort((a, b) => (a.title > b.title) ? 1 : -1);
+      // this.download(JSON.stringify(splitBK), "CourseList.json", "text/plain");
       // this.download(JSON.stringify(noAuthorBK), "bookWithoutAuthor.json", "text/plain");
     },
     download(content, fileName, contentType) {
