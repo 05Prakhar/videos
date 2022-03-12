@@ -27,14 +27,13 @@ export default {
   },
   computed: {
     filteredCourses() {
-      if (this.searchCourse !== "") {
-        return this.Courses.filter(
-          (el) =>
-            el.title.toLowerCase().search(this.searchCourse.toLowerCase()) !==
-            -1
-        );
-      }
-      return this.Courses;
+      return this.searchCourse !== ""
+        ? this.Courses.filter(
+            (el) =>
+              el.title.toLowerCase().search(this.searchCourse.toLowerCase()) !==
+              -1
+          )
+        : this.Courses;
     },
   },
 };
@@ -42,12 +41,8 @@ export default {
 
 <style scoped>
 section {
-  margin-top: 25px;
-  margin-bottom: 50px;
+  margin: 25px auto 50px auto;
   text-align: center;
-  position: absolute;
-  left: 5%;
-  right: 5%;
 }
 input::placeholder {
   color: gray;

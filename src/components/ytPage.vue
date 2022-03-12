@@ -7,7 +7,7 @@
     />
     <div class="yt-container">
       <div class="yt-card" v-for="(yt, index) in filteredYT" :key="index">
-        <img :src="`https://yt3.ggpht.com/${yt.link}`" :alt="yt.title">
+        <img :src="`https://yt3.ggpht.com/${yt.link}`" :alt="yt.title" />
         <div>{{ yt.title }}</div>
       </div>
     </div>
@@ -27,13 +27,12 @@ export default {
   },
   computed: {
     filteredYT() {
-      if (this.searchYT !== "") {
-        return this.YouTube.filter(
-          (el) =>
-            el.title.toLowerCase().search(this.searchYT.toLowerCase()) !== -1
-        );
-      }
-      return this.YouTube;
+      return this.searchYT !== ""
+        ? this.YouTube.filter(
+            (el) =>
+              el.title.toLowerCase().search(this.searchYT.toLowerCase()) !== -1
+          )
+        : this.YouTube;
     },
   },
 };
@@ -41,12 +40,8 @@ export default {
 
 <style scoped>
 section {
-  margin-top: 25px;
-  margin-bottom: 50px;
+  margin: 25px auto 50px auto;
   text-align: center;
-  position: absolute;
-  left: 5%;
-  right: 5%;
 }
 input::placeholder {
   color: gray;

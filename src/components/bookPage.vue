@@ -38,13 +38,13 @@ export default {
   },
   computed: {
     filteredBooks() {
-      if (this.searchBook !== "") {
-        return this.Books.filter(
-          (el) =>
-            el.title.toLowerCase().search(this.searchBook.toLowerCase()) !== -1
-        );
-      }
-      return this.Books;
+      return this.searchBook !== ""
+        ? this.Books.filter(
+            (el) =>
+              el.title.toLowerCase().search(this.searchBook.toLowerCase()) !==
+              -1
+          )
+        : this.Books;
     },
   },
 };
@@ -52,11 +52,8 @@ export default {
 
 <style scoped>
 section {
-  width: 100%;
-  margin-top: 25px;
-  margin-bottom: 50px;
+  margin: 25px auto 50px auto;
   text-align: center;
-  position: absolute;
 }
 input::placeholder {
   color: gray;

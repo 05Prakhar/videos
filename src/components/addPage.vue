@@ -1,6 +1,28 @@
 <template>
   <section>
-    <div class="add-container">
+    <div class="tab-view">
+      <ul>
+        <li
+          @click="onTabClick('Book')"
+          :class="{ 'active-tab': selectedTab === 'Book' }"
+        >
+          Add Book
+        </li>
+        <li
+          @click="onTabClick('Youtube')"
+          :class="{ 'active-tab': selectedTab === 'Youtube' }"
+        >
+          Add Youtube Channel
+        </li>
+        <li
+          @click="onTabClick('Coursera')"
+          :class="{ 'active-tab': selectedTab === 'Coursera' }"
+        >
+          Add Coursera Course
+        </li>
+      </ul>
+    </div>
+    <div v-if="selectedTab === 'Book'" class="book-add-container">
       <input type="text" placeholder="Title" v-model="titleText" />
       <input type="text" placeholder="Author" v-model="authorText" />
       <input type="text" placeholder="Category" v-model="categoryText" />
@@ -9,11 +31,12 @@
       <input type="text" placeholder="Amazon Link" v-model="amazonLink" />
       <input type="text" placeholder="Flipkart Link" v-model="flipkartLink" />
       <div class="button-set">
-        <button @click="addItem">Add</button>
-        <button @click="clearItem">Clear</button>
+        <button @click="addBook">Add Book</button>
+        <button @click="clearBook">Clear Book</button>
       </div>
-      <button @click="modifyFile">Modify List</button>
     </div>
+    <div v-if="selectedTab === 'Youtube'">Youtube Page</div>
+    <div v-if="selectedTab === 'Coursera'">Coursera Page</div>
   </section>
 </template>
 
@@ -24,6 +47,7 @@ export default {
   name: "AddBook",
   data() {
     return {
+      selectedTab: "Book",
       titleText: "",
       authorText: "",
       categoryText: "",
@@ -35,7 +59,10 @@ export default {
     };
   },
   methods: {
-    addItem() {
+    onTabClick(val) {
+      this.selectedTab = val;
+    },
+    addBook() {
       const payload = {
         title: this.titleText,
         author: this.authorText,
@@ -47,7 +74,7 @@ export default {
       };
       console.log(payload);
     },
-    clearItem() {
+    clearBook() {
       this.titleText = "";
       this.authorText = "";
       this.categoryText = "";
@@ -95,15 +122,34 @@ export default {
 
 <style scoped>
 section {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 100px;
+  margin-top: 50px;
   margin-bottom: 50px;
 }
-.add-container {
+.tab-view {
+  width: fit-content;
+  height: auto;
+  margin: 0 auto;
+  padding: 30px;
+}
+.tab-view ul .active-tab {
+  box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
+}
+.tab-view ul {
+  padding: 0;
+}
+.tab-view ul li {
+  display: inline-block;
+  padding: 1em 1.5em;
+  margin: 1em;
   border-radius: 20px;
+  cursor: pointer;
+  background: #ecf0f3;
+  box-shadow: 14px 14px 20px #cbced1, -14px -14px 20px white;
+}
+.book-add-container {
+  margin: 0 auto;
   padding: 20px 40px;
+  border-radius: 20px;
   box-sizing: border-box;
   background: #ecf0f3;
   box-shadow: 14px 14px 20px #cbced1, -14px -14px 20px white;

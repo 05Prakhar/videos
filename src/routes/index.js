@@ -1,4 +1,4 @@
-import { BookPage, YTPage, CourseraPage, AddBook } from '@/components';
+import { BookPage, YTPage, CourseraPage, AddPage } from '@/components';
 
 const routes = [
 	{
@@ -17,9 +17,9 @@ const routes = [
 		component: CourseraPage,
 	},
 	{
-		path: '/add-book',
-		name: 'AddBook',
-		component: AddBook,
+		path: '/add',
+		name: 'AddPage',
+		component: AddPage,
 	},
 	{
 		path: '/:pathMatch(.*)*',
