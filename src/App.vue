@@ -41,8 +41,12 @@ export default {
   name: "App",
   data() {
     return {
-      selectedHeader: "BookPage",
+      selectedHeader: '',
     };
+  },
+  async mounted() {
+    await this.$router.isReady();
+    this.selectedHeader = this.$router.currentRoute.value.name;
   },
   methods: {
     navigate(value) {
