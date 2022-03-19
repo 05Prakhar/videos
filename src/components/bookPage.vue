@@ -12,14 +12,21 @@
         class="book-card"
         v-for="(book, index) in filteredBooks"
         :key="index"
+        @click="openModal(book)"
       >
         <div>{{ book.title }}</div>
         <!-- <div>{{ book.category }}</div>
         <div>{{ book.author }}</div>
-        <div>{{ book.imageURL }}</div>
+        <img :src="book.imageURL" :alt="book.title" />
         <div>{{ book.amazonURL }}</div>
         <div>{{ book.flipkartURL }}</div>
         <div>{{ book.downloadURL }}</div> -->
+      </div>
+      <div v-if="isModalOpen" class="book-modal">
+        <div class="book-modal-content">
+          <span class="close" @click="closeModal">&times;</span>
+          <div class="book-modal-container"></div>
+        </div>
       </div>
     </div>
   </section>
@@ -34,6 +41,8 @@ export default {
     return {
       Books,
       searchBook: "",
+      selectedBook: {},
+      isModalOpen: false,
     };
   },
   computed: {
@@ -45,6 +54,15 @@ export default {
               -1
           )
         : this.Books;
+    },
+  },
+  methods: {
+    openModal(bookDetails) {
+      this.selectedBook = bookDetails;
+      this.isModalOpen = true;
+    },
+    closeModal() {
+      this.isModalOpen = false;
     },
   },
 };
@@ -93,5 +111,40 @@ input {
 .book-card {
   border-radius: 10px;
   box-shadow: 6px 6px 6px #cbced1, -6px -6px 6px white;
+}
+
+/* The Modal (background) */
+.book-modal {
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+/* Modal Content */
+.book-modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
 }
 </style>

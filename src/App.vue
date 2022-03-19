@@ -17,7 +17,13 @@
         :class="{ 'active-header': selectedHeader === 'CourseraPage' }"
         @click="navigate('CourseraPage')"
       >
-        Coursera
+        Coursera Courses
+      </li>
+      <li
+        :class="{ 'active-header': selectedHeader === 'ArticlePage' }"
+        @click="navigate('ArticlePage')"
+      >
+        Articles
       </li>
       <li
         :class="{ 'active-header': selectedHeader === 'AddPage' }"

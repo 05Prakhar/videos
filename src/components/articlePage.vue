@@ -1,24 +1,20 @@
 <template>
   <section>
-    <input
-      type="text"
-      placeholder="Search By Channel Title"
-      v-model="searchYT"
-    />
-    <div class="yt-container">
+    <input type="text" placeholder="Search By Article" v-model="searchArticle" />
+    <!-- Filter -->
+    <div class="article-container">
       <div
-        class="yt-card"
-        v-for="(yt, index) in filteredYT"
+        class="article-card"
+        v-for="(article, index) in filteredArticles"
         :key="index"
-        @click="openModal(yt)"
+        @click="openModal(article)"
       >
-        <img :src="`https://yt3.ggpht.com/${yt.link}`" :alt="yt.title" />
-        <div>{{ yt.title }}</div>
+        <div>{{ article.title }}</div>
       </div>
-      <div v-if="isModalOpen" class="yt-modal">
-        <div class="yt-modal-content">
+      <div v-if="isModalOpen" class="article-modal">
+        <div class="article-modal-content">
           <span class="close" @click="closeModal">&times;</span>
-          <div class="yt-modal-container"></div>
+          <div class="article-modal-container"></div>
         </div>
       </div>
     </div>
@@ -26,31 +22,32 @@
 </template>
 
 <script>
-import { YouTube } from "@/data";
+import { Courses } from "@/data";
 
 export default {
-  name: "YTPage",
+  name: "ArticlePage",
   data() {
     return {
-      YouTube,
-      searchYT: "",
-      selectedYT: {},
+      Courses,
+      searchArticle: "",
+      selectedArticle: {},
       isModalOpen: false,
     };
   },
   computed: {
-    filteredYT() {
-      return this.searchYT !== ""
-        ? this.YouTube.filter(
+    filteredArticles() {
+      return this.searchArticle !== ""
+        ? this.Courses.filter(
             (el) =>
-              el.title.toLowerCase().search(this.searchYT.toLowerCase()) !== -1
+              el.title.toLowerCase().search(this.searchArticle.toLowerCase()) !==
+              -1
           )
-        : this.YouTube;
+        : this.Courses;
     },
   },
   methods: {
-    openModal(ytDetails) {
-      this.selectedYT = ytDetails;
+    openModal(articleDetails) {
+      this.selectedArticle = articleDetails;
       this.isModalOpen = true;
     },
     closeModal() {
@@ -80,18 +77,18 @@ input {
   box-sizing: border-box;
   box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
 }
-.yt-container {
+.article-container {
   margin: 20px 15px;
   display: grid;
   grid-gap: 1rem;
 }
-.yt-card {
+.article-card {
   border-radius: 10px;
   box-shadow: 6px 6px 6px #cbced1, -6px -6px 6px white;
 }
 
 /* The Modal (background) */
-.yt-modal {
+.article-modal {
   position: fixed; /* Stay in place */
   z-index: 1; /* Sit on top */
   padding-top: 100px; /* Location of the box */
@@ -104,7 +101,7 @@ input {
   background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
 }
 /* Modal Content */
-.yt-modal-content {
+.article-modal-content {
   background-color: #fefefe;
   margin: auto;
   padding: 20px;

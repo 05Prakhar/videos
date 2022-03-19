@@ -93,20 +93,10 @@ export default {
       //     flipkartURL: el.flipkartURL,
       //     downloadURL: el.downloadURL,
       //   }))
-      //   .map((el) => ({
-      //     title: el.title.trim(),
-      //     author: el.author.trim(),
-      //     category: el.category,
-      //     imageURL: el.imageURL,
-      //     amazonURL: el.amazonURL,
-      //     flipkartURL: el.flipkartURL,
-      //     downloadURL: el.downloadURL,
-      //   }))
+        // console.log(splitBK)
       //   .sort((a, b) => (a.title > b.title) ? 1 : -1);
-      // const noAuthorBK = splitBK.filter((el) => el.author === undefined);
       // const splitBK = bk.sort((a, b) => (a.title > b.title) ? 1 : -1);
       // this.download(JSON.stringify(splitBK), "CourseList.json", "text/plain");
-      // this.download(JSON.stringify(noAuthorBK), "bookWithoutAuthor.json", "text/plain");
     },
     download(content, fileName, contentType) {
       const a = document.createElement("a");

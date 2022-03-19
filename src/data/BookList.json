@@ -1,1389 +1,1709 @@
 [
   {
+    "id": "book-0",
     "title": "12 Rules for Life: An Antidote to Chaos",
     "author": "Jordan B Peterson",
     "category": "Self Help"
   },
   {
+    "id": "book-1",
     "title": "21 Lessons for the 21st Century",
     "author": "Yuval Noah Harari"
   },
   {
+    "id": "book-2",
     "title": "30 Days - Change Your Habits, Change Your Life",
     "author": "Marc Reklau"
   },
   {
+    "id": "book-3",
     "title": "5 Regrets Of Dying",
     "author": "Bronnie Ware"
   },
   {
+    "id": "book-4",
     "title": "A Brief Introduction to Neural Networks",
     "author": "David Kriesel",
     "category": "Technology"
   },
   {
+    "id": "book-5",
     "title": "A Few Lessons For Investors and Managers from Warren Buffett",
     "author": "Peter Bevelin, Warren Buffett",
     "category": "Finance"
   },
   {
+    "id": "book-6",
     "title": "A Guide to the Good Life",
     "author": "William Braxton Irvine"
   },
   {
+    "id": "book-7",
     "title": "A Project Guide to UX Design: For User Experience Designers in the Field Or in the Making",
     "author": "Carolyn Chandler and Russ Unger",
     "category": "Technology"
   },
   {
+    "id": "book-8",
     "title": "A Random Walk Down Wall Street",
     "author": "Burton G Malkiel"
   },
   {
+    "id": "book-9",
     "title": "A Random Walk Guide to Investing",
     "author": "Burton G Malkiel",
     "category": "Finance"
   },
   {
+    "id": "book-10",
     "title": "A World Without Work: Technology, Automation and How We Should Respond",
     "author": "Daniel Susskind"
   },
   {
+    "id": "book-11",
     "title": "AI And Analytics, Accelerating Business Decisions",
     "author": "Sameer Dhanrajani",
     "category": "Technology"
   },
   {
+    "id": "book-12",
     "title": "Advanced R",
     "author": "Hadley Wickham",
     "category": "Technology"
   },
   {
+    "id": "book-13",
     "title": "Agile Product Management",
     "author": "Roman Pichler",
     "category": "Technology"
   },
   {
+    "id": "book-14",
     "title": "Alchemy: The Surprising Power of Ideas That Don't Make Sense",
     "author": "Rory Sutherland"
   },
   {
+    "id": "book-15",
     "title": "Amazon Unbound: Jeff Bezos and the Invention of a Global Empire",
     "author": "Brad Stone",
     "category": "Business"
   },
   {
+    "id": "book-16",
     "title": "An Introduction to Statistical Learning",
     "author": "Gareth James, Daniela Witten, Trevor Hastie, and Robert Tibshirani",
     "category": "Technology"
   },
   {
+    "id": "book-17",
     "title": "Antifragile: Things That Gain from Disorder",
     "author": "Nassim Nicholas Taleb"
   },
   {
+    "id": "book-18",
     "title": "Applied Artificial Intelligence: A Handbook For Business Leaders",
     "author": "Mariya Yao, Adelyn Zhou and Marlene Jia"
   },
   {
+    "id": "book-19",
     "title": "Applied Deep Learning: A Case-Based Approach to Understanding Deep Neural Networks",
     "author": "Umberto Michelucci",
     "category": "Technology"
   },
   {
+    "id": "book-20",
     "title": "Approaching Almost Any Machine Learning Problem",
     "author": "Abhishek Thakur",
     "category": "Technology"
   },
   {
+    "id": "book-21",
     "title": "Artificial Intelligence: A Modern Approach",
     "author": "Stuart J. Russell & Peter Norvig",
     "category": "Technology"
   },
   {
+    "id": "book-22",
     "title": "As A Man Thinketh",
     "author": "James Allen"
   },
   {
+    "id": "book-23",
     "title": "Atlas Shrugged",
     "author": "Ayn Rand"
   },
   {
+    "id": "book-24",
     "title": "Atomic Habits: An Easy & Proven Way to Build Good Habits and Break Bad Ones",
     "author": "James Clear"
   },
   {
+    "id": "book-25",
     "title": "Awakening of Intelligence",
     "author": "J Krishnamurti",
     "category": "Self Help"
   },
   {
+    "id": "book-26",
     "title": "Awareness: The Key to Living in Balance",
     "author": "Osho",
     "category": "Self Help"
   },
   {
+    "id": "book-27",
     "title": "Bad Blood",
     "author": "John Carreyrou"
   },
   {
+    "id": "book-28",
     "title": "Balanced Asset Allocation How to Profit in Any Economic Climate",
     "author": "Alex Shahidi",
     "category": "Finance"
   },
   {
+    "id": "book-29",
     "title": "Bank Valuation Demystified",
     "author": "Hamza Zargui",
     "category": "Finance"
   },
   {
+    "id": "book-30",
     "title": "Bayesian Methods for Hackers: Probabilistic Programming and Bayesian Inference",
     "author": "Cameron Davidson-Pilon",
     "category": "Technology"
   },
   {
+    "id": "book-31",
     "title": "Before You Startup: How to Prepare to Make Your Startup Dream a Reality",
     "author": "Pankaj Goyal"
   },
   {
+    "id": "book-32",
     "title": "Benjamin Franklin",
     "author": "Walter Isaacson"
   },
   {
+    "id": "book-33",
     "title": "Berkshire Hathaway Letters to Shareholders 1965 - 2018",
     "author": "Warren Buffett",
     "category": "Finance"
   },
   {
+    "id": "book-34",
     "title": "Best Business Practices For Photographers",
     "author": "John Harrington"
   },
   {
+    "id": "book-35",
     "title": "Better Under Pressure",
     "author": "Justin Menkes"
   },
   {
+    "id": "book-36",
     "title": "Beyond the Last Blue Mountain",
     "author": "R. M. Lala",
     "category": "Biography"
   },
   {
+    "id": "book-37",
     "title": "Big Data MBA: Driving Business Strategies with Data Science",
     "author": "Bill Schmarzo",
     "category": "Technology"
   },
   {
+    "id": "book-38",
     "title": "Big Mistake The Best Investor and Their Worst Investment",
     "author": "Michael Batnick",
     "category": "Finance"
   },
   {
+    "id": "book-39",
     "title": "Billion Dollar Whale: The Man Who Fooled Wall Street, Hollywood, and the World",
     "author": "Bradley Hope and Tom Wright"
   },
   {
+    "id": "book-40",
     "title": "Blitzscaling",
     "author": "Chris Yeh and Reid Hoffman"
   },
   {
+    "id": "book-41",
     "title": "Blue Ocean Strategy",
     "author": "Renee Mauborgne & W Chan Kim"
   },
   {
+    "id": "book-42",
     "title": "Bounce Back: How to Fail Fast and be Resilient at Work",
     "author": "Susan Kahn"
   },
   {
+    "id": "book-43",
     "title": "Brand Seduction",
     "author": "Daryl Weber"
   },
   {
+    "id": "book-44",
     "title": "Business Adventures",
     "author": "John Brooks"
   },
   {
+    "id": "book-45",
     "title": "Business Sutra",
     "author": "Devdutt Pattanaik"
   },
   {
+    "id": "book-46",
     "title": "CEO Excellence: The Six Mindsets That Distinguish the Best Leaders from the Rest",
     "author": "Carolyn Dewar",
     "category": "Technology"
   },
   {
+    "id": "book-47",
     "title": "Can't Hurt Me: Master Your Mind and Defy the Odds",
     "author": "David Goggins",
     "category": "Self Help"
   },
   {
+    "id": "book-48",
     "title": "Chanakya Neeti",
     "author": "Radhakrishnan Pillai"
   },
   {
+    "id": "book-49",
     "title": "Chariots Of The Gods?",
     "author": "Erich Von Däniken"
   },
   {
+    "id": "book-50",
     "title": "Coffee Can Investing: The Low Risk Road to Stupendous Wealth",
     "author": "Pranab Uniyal, Rakshit Ranjan, and Saurabh Mukherjee"
   },
   {
+    "id": "book-51",
     "title": "Common Stocks & Uncommon Profits",
     "author": "Peter A Fisher",
     "category": "Finance"
   },
   {
+    "id": "book-52",
     "title": "Consider Phlebas",
     "author": "Iain M Banks"
   },
   {
+    "id": "book-53",
     "title": "Contagious: Why Things Catch On",
     "author": "Jonah Berger"
   },
   {
+    "id": "book-54",
     "title": "Couples That Work",
     "author": "Jennifer Petriglieri",
     "category": "Technology"
   },
   {
+    "id": "book-55",
     "title": "Courage to be Disliked",
     "author": "Fumitake Koga and Ichiro Kishimi",
     "category": "Self Help"
   },
   {
+    "id": "book-56",
     "title": "Cracking the PM Interview: How to Land a Product Manager Job in Technology",
     "author": "Gayle Laakmann McDowell",
     "category": "Technology"
   },
   {
+    "id": "book-57",
     "title": "Crashed: How a Decade of Financial Crises Changed the World",
     "author": "Adam Tooze"
   },
   {
+    "id": "book-58",
     "title": "Creative Careers",
     "author": "Jeffrey Madoff",
     "category": "Technology"
   },
   {
+    "id": "book-59",
     "title": "Crush It: Why NOW Is the Time to Cash In on Your Passion",
     "author": "Gary Vaynerchuk"
   },
   {
+    "id": "book-60",
     "title": "Crushing It: How Great Entrepreneurs Build Their Business and Influence-and How You Can, Too",
     "author": "Gary Vaynerchuk"
   },
   {
+    "id": "book-61",
     "title": "Daemon",
     "author": "Daniel Suarez"
   },
   {
+    "id": "book-62",
     "title": "Das Kapital",
     "author": "Karl Marx"
   },
   {
+    "id": "book-63",
     "title": "Data Science (MIT Press Essential Knowledge Series)",
     "author": "John D. Kelleher",
     "category": "Technology"
   },
   {
+    "id": "book-64",
     "title": "Data Science For Business",
     "author": "Foster Provost and Tom Fawcett",
     "category": "Technology"
   },
   {
+    "id": "book-65",
     "title": "Data Science and Big Data Analytics: Discovering, Analyzing, Visualizing and Presenting Data",
     "author": "EMC Education Services",
     "category": "Technology"
   },
   {
+    "id": "book-66",
     "title": "Data Science for Business",
     "author": "Herbert Jones",
     "category": "Technology"
   },
   {
+    "id": "book-67",
     "title": "Data Science from Scratch: First Principles of Python",
     "author": "Joel Grus",
     "category": "Technology"
   },
   {
+    "id": "book-68",
     "title": "Data Smart: Using Data Science to Transform Information into Insight",
     "author": "John Foreman",
     "category": "Technology"
   },
   {
+    "id": "book-69",
     "title": "Deaths of Despair and the Future of Capitalism",
     "author": "Anne Case and Angus Deaton"
   },
   {
+    "id": "book-70",
     "title": "Decode and Conquer: Answers to Product Management Interviews",
     "author": "Lewis C. Lin",
     "category": "Technology"
   },
   {
+    "id": "book-71",
     "title": "Deep Learning",
     "author": "Ian Goodfelloe, Yoshua Bengio & Aaron Courville",
     "category": "Technology"
   },
   {
+    "id": "book-72",
     "title": "Deep Learning",
     "author": "MIT Press",
     "category": "Technology"
   },
   {
+    "id": "book-73",
     "title": "Deep Learning Cookbook",
     "author": "Douwe Osinga",
     "category": "Technology"
   },
   {
+    "id": "book-74",
     "title": "Deep Learning Methods and Applications",
     "author": "Li Deng and Dong Yu",
     "category": "Technology"
   },
   {
+    "id": "book-75",
     "title": "Deep Learning with Python",
     "author": "Francois Chollet",
     "category": "Technology"
   },
   {
+    "id": "book-76",
     "title": "Deep Work: Rules for Focused Success in a Distracted World",
     "author": "Cal Newport"
   },
   {
+    "id": "book-77",
     "title": "Designing Brand Identity",
     "author": "Alina Wheeler"
   },
   {
+    "id": "book-78",
     "title": "Designing Data-Intensive Applications",
     "author": "Martin Kleppmann",
     "category": "Technology"
   },
   {
+    "id": "book-79",
     "title": "Direct From Dell",
     "author": "Michael S. Dell"
   },
   {
+    "id": "book-80",
     "title": "Direct Truth",
     "author": "Kapil"
   },
   {
+    "id": "book-81",
     "title": "Discipline Equals Freedom: Field Manual",
     "author": "Jocko Willin"
   },
   {
+    "id": "book-82",
     "title": "Disrupt Yourself",
     "author": "Whitney Johnson"
   },
   {
+    "id": "book-83",
     "title": "Don't Make Me Think, Revisited: A Common Sense Approach to Web Usability",
     "author": "Steve Krug"
   },
   {
+    "id": "book-84",
     "title": "Dream Big",
     "author": "Cristiane Correa"
   },
   {
+    "id": "book-85",
     "title": "Dream With Your Eyes Open",
     "author": "Ronnie Screwvala"
   },
   {
+    "id": "book-86",
     "title": "Dune",
     "author": "Frank Herbert"
   },
   {
+    "id": "book-87",
     "title": "Eat People and Other Unpologetic Rules for Game Changing Entrepreneurs",
     "author": "Andy Kessler"
   },
   {
+    "id": "book-88",
     "title": "Eat That Frog: 21 Great Ways to Stop Procrastinating and Get More Done in Less Time",
     "author": "Brian Tracy"
   },
   {
+    "id": "book-89",
     "title": "Einstein: His Life & Universe",
     "author": "Walter Isaacson"
   },
   {
+    "id": "book-90",
     "title": "Elon Musk",
     "author": "Ashlee Vance"
   },
   {
+    "id": "book-91",
     "title": "Emotional Intelligence: Why It Can Matter More Than IQ",
     "author": "Daniel Goleman"
   },
   {
+    "id": "book-92",
     "title": "Engineering Entrepreneurship from Idea to Business Plan",
     "author": "Paul Swamidass",
     "category": "Technology"
   },
   {
+    "id": "book-93",
     "title": "Escaping the Build Trap: How Effective Product Management Creates Real Value",
     "author": "Melissa Perri",
     "category": "Technology"
   },
   {
+    "id": "book-94",
     "title": "Essentialism: The Disciplined Pursuit of Less",
     "author": "Greg Mckeown"
   },
   {
+    "id": "book-95",
     "title": "Ethics and Data Science",
     "author": "DJ Patil, Hilary Mason, and Mike Loukides",
     "category": "Technology"
   },
   {
+    "id": "book-96",
     "title": "Ethics in Design and Communication: Critical Perspectives",
     "author": "Laura Scherling & Andrew DeRosa",
     "category": "Technology"
   },
   {
+    "id": "book-97",
     "title": "Expected Returns",
     "author": "Antti ilmanen"
   },
   {
+    "id": "book-98",
     "title": "Factfulness: Ten Reasons We're Wrong About the World and Why Things Are Better Than You Think",
     "author": "Anna Rosling Rönnlund, Hans Rosling, and Ola Rosling",
     "category": "Self Help"
   },
   {
+    "id": "book-99",
     "title": "Feature Engineering and Selection: A Practical Approach for Predictive Models",
     "author": "Max Kuhn and Kjell Johnson",
     "category": "Technology"
   },
   {
+    "id": "book-100",
     "title": "First Contact with Deep Learning",
     "author": "Jordi Torres",
     "category": "Technology"
   },
   {
+    "id": "book-101",
     "title": "Fix This Next",
     "author": "Mike Michalowicz",
     "category": "Technology"
   },
   {
+    "id": "book-102",
     "title": "Flip the Script: Getting People to Think Your Idea is Their Idea",
     "author": "Oren Klaff"
   },
   {
+    "id": "book-103",
     "title": "Fooled By Randomness: The Hidden Role of Chance in Life & in the Market",
     "author": "Nassim Nicholas Taleb"
   },
   {
+    "id": "book-104",
     "title": "From Startup to Exit: An Insider's Guide to Launching and Scaling Your Tech Business",
     "author": "Shirish Nadkarni"
   },
   {
+    "id": "book-105",
     "title": "Getting Results the Agile Way: A Personal Results System for Work & Life",
     "author": "J.D. Meier"
   },
   {
+    "id": "book-106",
     "title": "Grid Systems in Graphic Design: A Visual Communication Manual for Graphic Designers, Typographers and Three Dimensional Designers",
     "author": "Josef Mülller-Brockmann",
     "category": "Technology"
   },
   {
+    "id": "book-107",
     "title": "Grit",
     "author": "Angela Duckworth"
   },
   {
+    "id": "book-108",
     "title": "Hacks for Life and Career: A Millennial’s Guide to Making it Big",
     "author": "Sandeep Das"
   },
   {
+    "id": "book-109",
     "title": "Hands on Machine Learning",
     "author": "Aurelien Geron",
     "category": "Technology"
   },
   {
+    "id": "book-110",
     "title": "Head First Statistics: A Brain-Friendly Guide",
     "author": "Dawn Griffiths",
     "category": "Technology"
   },
   {
+    "id": "book-111",
     "title": "High Growth Handbook",
     "author": "Elad Gil"
   },
   {
+    "id": "book-112",
     "title": "Home Deus",
     "author": "Yuval Noah Harari"
   },
   {
+    "id": "book-113",
     "title": "Hooked: How to Build Habit-Forming Products",
     "author": "Nir Eyal"
   },
   {
+    "id": "book-114",
     "title": "How Will You Measure Your Life",
     "author": "Clayton Christensen, James Allworth, and Karen Dillon"
   },
   {
+    "id": "book-115",
     "title": "How to Make Money in Stocks",
     "author": "William J O'neil"
   },
   {
+    "id": "book-116",
     "title": "How to Use Graphic Design to Sell Things, Explain Things, Make Things Look Better, Make People Laugh, Make People Cry, and (every Once in a While) Change the World",
     "author": "Michael Bierut",
     "category": "Technology"
   },
   {
+    "id": "book-117",
     "title": "How to Win Friends and Influence People",
     "author": "Dale Carnegie",
     "category": "Self Help"
   },
   {
+    "id": "book-118",
     "title": "IKIGAI",
     "author": "Hector Garcia & Frencesc Miralles",
     "category": "Self Help"
   },
   {
+    "id": "book-119",
     "title": "If Then: How the Simulmatics Corporation Invented the Future",
     "author": "Jill Lepore"
   },
   {
+    "id": "book-120",
     "title": "If the Universe Is Teeming with Aliens Where Is Everybody?: Seventy-Five Solutions to the Fermi Paradox and the Problem of Extra-terrestrial Life",
     "author": "Stephen Webb"
   },
   {
+    "id": "book-121",
     "title": "Ignition!: An Informal History of Liquid Rocket Propellants",
     "author": "John Drury Clark"
   },
   {
+    "id": "book-122",
     "title": "Indistractable: How to Control Your Attention and Choose Your Life",
     "author": "Nir Eyal"
   },
   {
+    "id": "book-123",
     "title": "Influence: The Psychology of Persuasion",
     "author": "Robert B. Cialdini"
   },
   {
+    "id": "book-124",
     "title": "Inspired: How To Create Products Customers Love",
     "author": "Marty Cagan"
   },
   {
+    "id": "book-125",
     "title": "Into The Wild",
     "author": "Jon Krakauer"
   },
   {
+    "id": "book-126",
     "title": "Introduction to Machine Learning with Python: A Guide for Data Scientists",
     "author": "Andreas C. Müller and Sarah Guido",
     "category": "Technology"
   },
   {
+    "id": "book-127",
     "title": "Introduction to Probability",
     "author": "Joseph K. Blitzstein and Jessica Hwang",
     "category": "Technology"
   },
   {
+    "id": "book-128",
     "title": "Invent and Wander: The Collected Writings of Jeff Bezos",
     "author": "Jeff Bezos"
   },
   {
+    "id": "book-129",
     "title": "Invested",
     "author": "Daniella Town and Phil Town",
     "category": "Finance"
   },
   {
+    "id": "book-130",
     "title": "Invisible Women: Exposing Data Bias in a World Designed for Men",
     "author": "Caroline Criado Perez"
   },
   {
+    "id": "book-131",
     "title": "Jack Welch and the G.E. Way: Management Insights and Leadership Secrets of the Legendary CEO",
     "author": "Robert Slater",
     "category": "Business"
   },
   {
+    "id": "book-132",
     "title": "Jack: Straight From the Gut",
     "author": "Jack Welch"
   },
   {
+    "id": "book-133",
     "title": "Laughing At Wallstreet",
     "author": "Chris Camillo"
   },
   {
+    "id": "book-134",
     "title": "Lean UX: Designing Great Products with Agile Teams",
     "author": "Jeff Gothelf and Josh Seiden",
     "category": "Technology"
   },
   {
+    "id": "book-135",
     "title": "Learn to Earn",
     "author": "John Rothchild and Peter Lynch"
   },
   {
+    "id": "book-136",
     "title": "Learning Pythin",
     "author": "Mark Lutz (Orielly)",
     "category": "Technology"
   },
   {
+    "id": "book-137",
     "title": "Learning Python",
     "author": "Mark Lutz (Orielly)",
     "category": "Technology"
   },
   {
+    "id": "book-138",
     "title": "Let's Talk Money",
     "author": "Monika Halan"
   },
   {
+    "id": "book-139",
     "title": "Linchpin: Are You Indispensable?",
     "author": "Seth Godin",
     "category": "Self Help"
   },
   {
+    "id": "book-140",
     "title": "Losing My Virginity",
     "author": "Richard Branson"
   },
   {
+    "id": "book-141",
     "title": "Lying",
     "author": "Sam Harris"
   },
   {
+    "id": "book-142",
     "title": "Machine Learning Design Patterns",
     "author": "Valliappa Lakshmanan, Sara Robinson, Michael Munn",
     "category": "Technology"
   },
   {
+    "id": "book-143",
     "title": "Machine Learning Yearning",
     "author": "Andrew Ng",
     "category": "Technology"
   },
   {
+    "id": "book-144",
     "title": "Machine Learning, Neural and Statistical Classification",
     "author": "Donald Michie",
     "category": "Technology"
   },
   {
+    "id": "book-145",
     "title": "Machine Learning: A Probabilistic Perspective",
     "author": "Kevin Murphy",
     "category": "Technology"
   },
   {
+    "id": "book-146",
     "title": "Man In Search of Meaning",
     "author": "Viktor Frankl"
   },
   {
+    "id": "book-147",
     "title": "Man's Search for Meaning",
     "author": "Viktor Frankl"
   },
   {
+    "id": "book-148",
     "title": "Marketing Data Science: Modeling Techniques in Predictive Analytics with R and Python",
     "author": "Thomas W Miller",
     "category": "Technology"
   },
   {
+    "id": "book-149",
     "title": "Marketing Management",
     "author": "Philip Kotler, Keven Lane Keller"
   },
   {
+    "id": "book-150",
     "title": "Master Growth Hacking: The Best-Kept Secret of New-Age Indian Start-ups",
     "author": "Apurva Chamaria"
   },
   {
+    "id": "book-151",
     "title": "Mastering the Market Cycle",
     "author": "Howard Marks"
   },
   {
+    "id": "book-152",
     "title": "Measure What Matters",
     "author": "John Doerr"
   },
   {
+    "id": "book-153",
     "title": "Measure What Matters: OKRs: The Simple Idea that Drives 10x Growth",
     "author": "John Doerr"
   },
   {
+    "id": "book-154",
     "title": "Merchants of Doubt: How a Handful of Scientists Obscured the Truth on Issues from Tobacco Smoke to Climate Change",
     "author": "Naomi Oreskes and Erik M Conway"
   },
   {
+    "id": "book-155",
     "title": "Mindset: The New Psychology of Success",
     "author": "Carol Dweck"
   },
   {
+    "id": "book-156",
     "title": "Misbehaving: The Making of Behavioral Economics",
     "author": "Richard Thaler"
   },
   {
+    "id": "book-157",
     "title": "Money: Master the Game",
     "author": "Tony Robbins",
     "category": "Finance"
   },
   {
+    "id": "book-158",
     "title": "More Money Than God",
     "author": "Sebastian Malla"
   },
   {
+    "id": "book-159",
     "title": "Naked Statistics: Stripping the Dread from the Data",
     "author": "Charles Wheelan",
     "category": "Technology"
   },
   {
+    "id": "book-160",
     "title": "Neural Networks and Deep Learning",
     "author": "Michael Nielsen",
     "category": "Technology"
   },
   {
+    "id": "book-161",
     "title": "Neural Networks and Learning Machines",
     "author": "Simon Haykin",
     "category": "Technology"
   },
   {
+    "id": "book-162",
     "title": "Never Eat Alone",
     "author": "Keith Ferrazzi"
   },
   {
+    "id": "book-163",
     "title": "Never Split the Difference: Negotiating as if Your Life Depended on It",
     "author": "Chris Voss"
   },
   {
+    "id": "book-164",
     "title": "Never Too Late To Startup",
     "author": "Rob Kornblum"
   },
   {
+    "id": "book-165",
     "title": "No Excuses: The Power Of Self Discipline",
     "author": "Brian Tracy"
   },
   {
+    "id": "book-166",
     "title": "No Filter: The Inside Story of Instagram",
     "author": "Sarah Frier"
   },
   {
+    "id": "book-167",
     "title": "No Rules Rules: Netflix and the Culture of Reinvention",
     "author": "Erin Meyer and Reed Hastings"
   },
   {
+    "id": "book-168",
     "title": "Nudge: Improving Decisions About Health, Wealth, and Happiness",
     "author": "Richard H. Thaler and Cass R. Sunstein"
   },
   {
+    "id": "book-169",
     "title": "On The Shortness of Life",
     "author": "Seneca",
     "category": "Self Help"
   },
   {
+    "id": "book-170",
     "title": "One From Many",
     "author": "Dee Hock"
   },
   {
+    "id": "book-171",
     "title": "One Up On Wall Street",
     "author": "Peter Lynch"
   },
   {
+    "id": "book-172",
     "title": "Only the Paranoid Survive: How to Identify and Exploit the Crisis Points that Challenge Every Business",
     "author": "Andrew Grove"
   },
   {
+    "id": "book-173",
     "title": "Our Final Invention",
     "author": "James Barrat",
     "category": "Technology"
   },
   {
+    "id": "book-174",
     "title": "Outcomes Over Outputs",
     "author": "Josh Seiden",
     "category": "Technology"
   },
   {
+    "id": "book-175",
     "title": "Outliers",
     "author": "Malcolm Gladwell"
   },
   {
+    "id": "book-176",
     "title": "Pattern Recognition and Machine Learning",
     "author": "Christopher M. Bishop",
     "category": "Technology"
   },
   {
+    "id": "book-177",
     "title": "Permission Marketing: Turning Strangers Dislike Into Friends And Friends Into Customers",
     "author": "Seth Godin"
   },
   {
+    "id": "book-178",
     "title": "Persuasive Technology",
     "author": "BJ Fogg"
   },
   {
+    "id": "book-179",
     "title": "Pitch Anything",
     "author": "Oren Klaff"
   },
   {
+    "id": "book-180",
     "title": "Practical Statistics for Data Scientists: 50 Essential Concepts Using R and Python",
     "author": "Andrew Bruce, Peter C. Bruce, and Peter Gedeck",
     "category": "Technology"
   },
   {
+    "id": "book-181",
     "title": "Predictably Irrational",
     "author": "Dan Ariely"
   },
   {
+    "id": "book-182",
     "title": "Predictive Analytics: The Power to Predict Who Will Click, Buy, Lie, or Die",
     "author": "Eric Siegel",
     "category": "Technology"
   },
   {
+    "id": "book-183",
     "title": "Principles: Life and Work",
     "author": "Ray Dalio"
   },
   {
+    "id": "book-184",
     "title": "Prisoners of Geography: Ten Maps That Tell You Everything You Need To Know About Global Politics",
     "author": "Tim Marshall"
   },
   {
+    "id": "book-185",
     "title": "Product Leadership",
     "author": "Martin Eriksson, Nate Walkingshaw, and Richard Banfield"
   },
   {
+    "id": "book-186",
     "title": "Product Management For Dummies",
     "author": "Brian Lawley and Pamela Schure",
     "category": "Technology"
   },
   {
+    "id": "book-187",
     "title": "Proof of Heaven",
     "author": "Eben Alexander",
     "category": "Self Help"
   },
   {
+    "id": "book-188",
     "title": "Psycho Cybernetics",
     "author": "Maxwell Maltz"
   },
   {
+    "id": "book-189",
     "title": "Python Crash Course",
     "author": "Eric Matthes",
     "category": "Technology"
   },
   {
+    "id": "book-190",
     "title": "Python Crash Course",
     "author": "Eric Matthes",
     "category": "Technology"
   },
   {
+    "id": "book-191",
     "title": "Python Data Science Handbook",
     "author": "Orielly",
     "category": "Technology"
   },
   {
+    "id": "book-192",
     "title": "Python For Data Analysis: Data Wrangling with Pandas, NumPy, and IPython",
     "author": "Wes McKinney",
     "category": "Technology"
   },
   {
+    "id": "book-193",
     "title": "Python Machine Learning",
     "author": "Example",
     "category": "Technology"
   },
   {
+    "id": "book-194",
     "title": "Python Programming",
     "author": "John Zelle",
     "category": "Technology"
   },
   {
+    "id": "book-195",
     "title": "Python Programming",
     "author": "John Zelle",
     "category": "Technology"
   },
   {
+    "id": "book-196",
     "title": "Python in a Nutshell",
     "author": "Alex Marielli (Orielly)",
     "category": "Technology"
   },
   {
+    "id": "book-197",
     "title": "Python in a Nutshell",
     "author": "Alex Marielli (Orielly)",
     "category": "Technology"
   },
   {
+    "id": "book-198",
     "title": "Quiet: The Power of Introverts in a World That Can't Stop Talking",
     "author": "Susan Cain"
   },
   {
+    "id": "book-199",
     "title": "R for Data Science",
     "author": "Garret Grolemund and Hadley Wickham",
     "category": "Technology"
   },
   {
+    "id": "book-200",
     "title": "Radical Candor",
     "author": "Kim Scott"
   },
   {
+    "id": "book-201",
     "title": "Range: Why Generalists Triumph in a Specialized World",
     "author": "David Epstein"
   },
   {
+    "id": "book-202",
     "title": "Reducing the Risk of Black Swans",
     "author": "Larry Swedroe and Kevin Grogan"
   },
   {
+    "id": "book-203",
     "title": "Reimagining Capitalism in a World on Fire",
     "author": "Rebecca Henderson"
   },
   {
+    "id": "book-204",
     "title": "Rework",
     "author": "Jason Fried, David Heinemeier Hansson"
   },
   {
+    "id": "book-205",
     "title": "Romancing the Balance Sheet",
     "author": "Anil Lamba"
   },
   {
+    "id": "book-206",
     "title": "Sam Walton: Made in America",
     "author": "Sam Walton"
   },
   {
+    "id": "book-207",
     "title": "Samsung Rising: The Inside Story of the South Korean Giant That Set Out to Beat Apple and Conquer Tech",
     "author": "Geoffrey Cain"
   },
   {
+    "id": "book-208",
     "title": "Sapiens: A Brief History of Humankind",
     "author": "Yuval Noah Harari"
   },
   {
+    "id": "book-209",
     "title": "Screw Business as Usual",
     "author": "Richard Branson"
   },
   {
+    "id": "book-210",
     "title": "Shape Up: Stop Running in Circles and Ship Work that Matters",
     "author": "Ryan Singer"
   },
   {
+    "id": "book-211",
     "title": "Shoe Dog",
     "author": "Phil Knight"
   },
   {
+    "id": "book-212",
     "title": "Siddhartha: An Indian Take",
     "author": "Hermann Hesse"
   },
   {
+    "id": "book-213",
     "title": "Skin in the Game: Hidden Asymmetries in Daily Life",
     "author": "Nassim Nicholas Taleb"
   },
   {
+    "id": "book-214",
     "title": "So Good They Can't Ignore You",
     "author": "Cal Newport"
   },
   {
+    "id": "book-215",
     "title": "Start with Why: How Great Leaders Inspire Everyone to Take Action",
     "author": "Simon Sinek"
   },
   {
+    "id": "book-216",
     "title": "Stocks To Riches",
     "author": "Parag Parikh",
     "category": "Finance"
   },
   {
+    "id": "book-217",
     "title": "Stress Test: Reflections on Financial Crises",
     "author": "Timothy F. Geithner"
   },
   {
+    "id": "book-218",
     "title": "Structures: Or Why Things Don't Fall Down",
     "author": "J. E. Gordon",
     "category": "Technology"
   },
   {
+    "id": "book-219",
     "title": "Superintelligence : Paths, Dangers, Strategies",
     "author": "Nick Bostrom"
   },
   {
+    "id": "book-220",
     "title": "Talking to My Daughter about Economy",
     "author": "Yanis Varoufakis"
   },
   {
+    "id": "book-221",
     "title": "Tax Free Wealth",
     "author": "Tom Wheelwright"
   },
   {
+    "id": "book-222",
     "title": "Testing Business Ideas: A Field Guide for Rapid Experimentation",
     "author": "Alexander Osterwalder and David J. Bland"
   },
   {
+    "id": "book-223",
     "title": "The $100 Startup",
     "author": "Chris Guillebeau"
   },
   {
+    "id": "book-224",
     "title": "The 10X Rule: The Only Difference Between Success and Failure",
     "author": "Grant Cardone"
   },
   {
+    "id": "book-225",
     "title": "The 2-Hour Job Search, Second Edition: Using Technology to Get the Right Job Faster",
     "author": "Steve Dalton"
   },
   {
+    "id": "book-226",
     "title": "The 22 Immutable Laws of Marketing",
     "author": "Al Ries and Jack Trout"
   },
   {
+    "id": "book-227",
     "title": "The 48 Hour Start-up",
     "author": "Fraser Doherty Mbe"
   },
   {
+    "id": "book-228",
     "title": "The 48 Laws Of Power",
     "author": "Robert Greene"
   },
   {
+    "id": "book-229",
     "title": "The 48 Laws of Power",
     "author": "Robert Greene"
   },
   {
+    "id": "book-230",
     "title": "The 7 Habits of Highly Effective People",
     "author": "Stefen R Covey"
   },
   {
+    "id": "book-231",
     "title": "The 8th Habit",
     "author": "Stephen Covey"
   },
   {
+    "id": "book-232",
     "title": "The Almanack of Naval Ravikant",
     "author": "Eric Jorgenson"
   },
   {
+    "id": "book-233",
     "title": "The Antidote",
     "author": "Oliver Burkeman"
   },
   {
+    "id": "book-234",
     "title": "The Art of Data Science",
     "author": "Roger Peng and Elizabeth Matsui",
     "category": "Technology"
   },
   {
+    "id": "book-235",
     "title": "The Art of Thinking Clearly",
     "author": "Rolf Dobelli"
   },
   {
+    "id": "book-236",
     "title": "The Atheist's Guide to Reality: Enjoying Life Without Illusions",
     "author": "Alexander Rosenberg"
   },
   {
+    "id": "book-237",
     "title": "The Automatic Millionaire: A Powerful One-step Plan to Live & Finish Rich",
     "author": "David Bach"
   },
   {
+    "id": "book-238",
     "title": "The Big Picture: On the Origins of Life, Meaning, and the Universe Itself",
     "author": "Sean Carroll"
   },
   {
+    "id": "book-239",
     "title": "The Black Swan",
     "author": "Nassim Nicholas Taleb"
   },
   {
+    "id": "book-240",
     "title": "The Brain: The Story of You",
     "author": "David Eagleman"
   },
   {
+    "id": "book-241",
     "title": "The CEO Factory: Management Lessons from Hindustan Unilever",
     "author": "Sudhir Sitapati"
   },
   {
+    "id": "book-242",
     "title": "The Clash of Civilizations and the Remaking of World Order",
     "author": "Samuel P. Huntington"
   },
   {
+    "id": "book-243",
     "title": "The Compound Effect",
     "author": "Darren Hardy"
   },
   {
+    "id": "book-244",
     "title": "The Compound Effect: Jump Start Your Income Your Life Your Success",
     "author": "Darren Hardy"
   },
   {
+    "id": "book-245",
     "title": "The Courage to be Disliked",
     "author": "Ichiro Kishimi & Fumitake Koga"
   },
   {
+    "id": "book-246",
     "title": "The Culture Code: The Secrets of Highly Successful Groups",
     "author": "Daniel Coyle"
   },
   {
+    "id": "book-247",
     "title": "The Daily Stoic",
     "author": "Ryan Holiday"
   },
   {
+    "id": "book-248",
     "title": "The Denial of Death",
     "author": "Ernest Becker"
   },
   {
+    "id": "book-249",
     "title": "The Design of Everyday Things",
     "author": "Don Norman",
     "category": "Technology"
   },
   {
+    "id": "book-250",
     "title": "The Diary Of A Young Girl",
     "author": "Anne Frank",
     "category": "Biography"
   },
   {
+    "id": "book-251",
     "title": "The Education of a Value Investor",
     "author": "Guy Spier"
   },
   {
+    "id": "book-252",
     "title": "The Effective Executive",
     "author": "Peter Drucker"
   },
   {
+    "id": "book-253",
     "title": "The Elements of Statistical Learning",
     "author": "Trevor Hastie, Robert Tibshirani & Jerome Friedman",
     "category": "Technology"
   },
   {
+    "id": "book-254",
     "title": "The Elephant in the Brain",
     "author": "Kevin Simler and Robin Hanson"
   },
   {
+    "id": "book-255",
     "title": "The Essays of Warren Buffett",
     "author": "Lawrence A Cunningham",
     "category": "Finance"
   },
   {
+    "id": "book-256",
     "title": "The Farmer From Merna",
     "author": "Karl Schriftgiesser"
   },
   {
+    "id": "book-257",
     "title": "The Foundation Series",
     "author": "Isaac Asimov"
   },
   {
+    "id": "book-258",
     "title": "The Fountainhead",
     "author": "Ayn Rand"
   },
   {
+    "id": "book-259",
     "title": "The Goal: A Process of Ongoing Improvement",
     "author": "Eliyahu M. Goldratt"
   },
   {
+    "id": "book-260",
     "title": "The Hard Things About Hard Things",
     "author": "Ben Horowitz"
   },
   {
+    "id": "book-261",
     "title": "The Headspace Guide to Meditation and Mindfulness",
     "author": "Andy Puddicombe"
   },
   {
+    "id": "book-262",
     "title": "The High Performance Entrepreneur",
     "author": "Subroto Bagchi"
   },
   {
+    "id": "book-263",
     "title": "The Hitchhiker’s Guide To The Galaxy",
     "author": "Douglas Adams"
   },
   {
+    "id": "book-264",
     "title": "The Innovator's Dilemma",
     "author": "Clayton Christensen"
   },
   {
+    "id": "book-265",
     "title": "The Last Lecture",
     "author": "Randy Pausch"
   },
   {
+    "id": "book-266",
     "title": "The Laws of Human Nature",
     "author": "Robert Greene"
   },
   {
+    "id": "book-267",
     "title": "The Laws of Wealth",
     "author": "Daniel Cros"
   },
   {
+    "id": "book-268",
     "title": "The Lean Product Playbook",
     "author": "Dan Olsen",
     "category": "Technology"
   },
   {
+    "id": "book-269",
     "title": "The Lean Startup",
     "author": "Eric Ries"
   },
   {
+    "id": "book-270",
     "title": "The Little Book That Beats the Market",
     "author": "Joel Greenblatt"
   },
   {
+    "id": "book-271",
     "title": "The Little Book of Common Sense Investing",
     "author": "John C Bogle"
   },
   {
+    "id": "book-272",
     "title": "The Logo Design Idea Book: (Logo Beginners Guide, LOGO Design Basics, Visual Branding Book)",
     "author": "Steven Heller & Gail Anderson",
     "category": "Technology"
   },
   {
+    "id": "book-273",
     "title": "The Millionaire Fastlane: Crack the Code to Wealth & Live Rich for a Lifetime",
     "author": "M.J. DeMarco"
   },
   {
+    "id": "book-274",
     "title": "The Millionaire Next Door: The Surprising Secrets of America's Wealthy",
     "author": "Thomas J Stanley"
   },
   {
+    "id": "book-275",
     "title": "The Misfit Economy",
     "author": "Alexa Clay and Kyra Maya Phillips"
   },
   {
+    "id": "book-276",
     "title": "The Moon Is a Harsh Mistress",
     "author": "Robert A Heinlein"
   },
   {
+    "id": "book-277",
     "title": "The New Trading for a Living",
     "author": "Dr. Alexander Elder"
   },
   {
+    "id": "book-278",
     "title": "The One Thing",
     "author": "Gary W. Keller and Jay Papasan"
   },
   {
+    "id": "book-279",
     "title": "The Outsiders",
     "author": "William N Thorndike"
   },
   {
+    "id": "book-280",
     "title": "The Photographer's MBA: Everything You Need to Know for Your Photography Business",
     "author": "Sal Cincotta"
   },
   {
+    "id": "book-281",
     "title": "The Power of Habit: Why We Do What We Do, and How to Change",
     "author": "Charles Duhigg"
   },
   {
+    "id": "book-282",
     "title": "The Power of Positive Thinking",
     "author": "Norman Vincent Peale"
   },
   {
+    "id": "book-283",
     "title": "The Practitioner’s Guide To Graph Data",
     "author": "Gosnell & Broecheler",
     "category": "Technology"
   },
   {
+    "id": "book-284",
     "title": "The Product Book",
     "author": "Josh Anon, Carlos Gonzalez",
     "category": "Technology"
   },
   {
+    "id": "book-285",
     "title": "The Psychology of Money",
     "author": "Morgan Housel",
     "category": "Finance"
   },
   {
+    "id": "book-286",
     "title": "The Ride of a Lifetime",
     "author": "Robert Iger"
   },
   {
+    "id": "book-287",
     "title": "The Rudest Book Ever",
     "author": "Shwetabh Gangwar",
     "category": "Self Help"
   },
   {
+    "id": "book-288",
     "title": "The Secret",
     "author": "Rhonda"
   },
   {
+    "id": "book-289",
     "title": "The Secret",
     "author": "Rhonda"
   },
   {
+    "id": "book-290",
     "title": "The Selfish Gene",
     "author": "Richard Dawkins"
   },
   {
+    "id": "book-291",
     "title": "The Selfish Gene",
     "author": "Richard Dawkins"
   },
   {
+    "id": "book-292",
     "title": "The Snowball",
     "author": "Alice Schroeder"
   },
   {
+    "id": "book-293",
     "title": "The Startup Way: How Modern Companies Use Entrepreneurial Management to Transform Culture and Drive Long-Term Growth",
     "author": "Eric Ries"
   },
   {
+    "id": "book-294",
     "title": "The Startup of You",
     "author": "Reid Hoffman and Ben Casnocha"
   },
   {
+    "id": "book-295",
     "title": "The Tao of Charlie Munger",
     "author": "David Clark",
     "category": "Finance"
   },
   {
+    "id": "book-296",
     "title": "The Teachings of Don Juan",
     "author": "Carlos Castaneda"
   },
   {
+    "id": "book-297",
     "title": "The Ten Commandments For Business Failure",
     "author": "Donald R Keough"
   },
   {
+    "id": "book-298",
     "title": "The Third Door",
     "author": "Alex Banayan"
   },
   {
+    "id": "book-299",
     "title": "The Third Door",
     "author": "Alex Banayan"
   },
   {
+    "id": "book-300",
     "title": "The Third Industrial Revolution",
     "author": "Jeremy Rifkin"
   },
   {
+    "id": "book-301",
     "title": "The Tipping Point: How Little Things Can Make a Big Difference",
     "author": "Malcolm Gladwell"
   },
   {
+    "id": "book-302",
     "title": "The Toyota Way",
     "author": "Jeffrey Liker"
   },
   {
+    "id": "book-303",
     "title": "The Trillion Dollar Coach",
     "author": "Alan Eagle, Eric Schmidt, and Jonathan Rosenberg"
   },
   {
+    "id": "book-304",
     "title": "The Upstarts",
     "author": "Brad Stone"
   },
   {
+    "id": "book-305",
     "title": "The Vital Question",
     "author": "Nick Late"
   },
   {
+    "id": "book-306",
     "title": "The Wal-Mart Effect",
     "author": "Charles Fishman"
   },
   {
+    "id": "book-307",
     "title": "The Warren Buffet Way",
     "author": "Robert G Hagstrom",
     "category": "Finance"
   },
   {
+    "id": "book-308",
     "title": "The Wealth of Nations",
     "author": "Adam Smith"
   },
   {
+    "id": "book-309",
     "title": "Think Like a UX Researcher",
     "author": "David Travis and Phillip Hodgson"
   },
   {
+    "id": "book-310",
     "title": "Think Python",
     "author": "Allen B. Downey",
     "category": "Technology"
   },
   {
+    "id": "book-311",
     "title": "Think Stats",
     "author": "Allen B Downy (Orielly)",
     "category": "Technology"
   },
   {
+    "id": "book-312",
     "title": "Thinking Fast and Slow",
     "author": "Daniel Kahneman"
   },
   {
+    "id": "book-313",
     "title": "This Is Marketing",
     "author": "Seth Godin"
   },
   {
+    "id": "book-314",
     "title": "Tiny Habits: The Small Changes That Change Everything",
     "author": "BJ Fogg"
   },
   {
+    "id": "book-315",
     "title": "Tools of Titans",
     "author": "Tim Ferriss"
   },
   {
+    "id": "book-316",
     "title": "Trillion Dollar Coach: The Leadership Handbook of Silicon Valley's Bill Campbell",
     "author": "Alan Eagle, Eric Schmidt, and Jonathan Rosenberg"
   },
   {
+    "id": "book-317",
     "title": "Twelve Against the Gods: The Story of Adventure",
     "author": "William Bolitho"
   },
   {
+    "id": "book-318",
     "title": "Unconscious Branding",
     "author": "Douglas Van Praet"
   },
   {
+    "id": "book-319",
     "title": "Understanding Machine Learning: From Theory to Algorithms",
     "author": "Shai Shalev-Shwartz and Shai Ben-David",
     "category": "Technology",
@@ -1393,81 +1713,100 @@
     "downloadURL": ""
   },
   {
+    "id": "book-320",
     "title": "Unlimited Power",
     "author": "Tony Robbins"
   },
   {
+    "id": "book-321",
     "title": "Unshakeable Your Financial Freedom Playbook Creating Peace in the world of Volatility",
     "author": "Tony Robbins"
   },
   {
+    "id": "book-322",
     "title": "Uplifting Stories",
     "author": "Ione Butler"
   },
   {
+    "id": "book-323",
     "title": "Venture Deals",
     "author": "Brad Feld & Jason Mendelson"
   },
   {
+    "id": "book-324",
     "title": "Visual Intelligence: Sharpen Your Perception, Change Your Life",
     "author": "Amy Herman",
     "category": "Technology"
   },
   {
+    "id": "book-325",
     "title": "Waking Up",
     "author": "Sam Harris"
   },
   {
+    "id": "book-326",
     "title": "Well Designed",
     "author": "Jon Kolko",
     "category": "Technology"
   },
   {
+    "id": "book-327",
     "title": "What You Do Is Who You Are",
     "author": "Ben Horowitz"
   },
   {
+    "id": "book-328",
     "title": "What You Do Is Who You Are: How to Create Your Business Culture",
     "author": "Ben"
   },
   {
+    "id": "book-329",
     "title": "Who Moved My Cheese",
     "author": "Spencer Johnson"
   },
   {
+    "id": "book-330",
     "title": "Why zebras don't get ulcers",
     "author": "Robert Sapolsky",
     "category": "Self Help"
   },
   {
+    "id": "book-331",
     "title": "Winning the Loser's Of Game Timeless Strategies for Successful Investing",
     "author": "Charles D Ellis"
   },
   {
+    "id": "book-332",
     "title": "Work Your Money, Not Your Life: How to Balance Your Career and Personal Finances to Get What You Want",
     "author": "Roger Ma with Jennifer Ma"
   },
   {
+    "id": "book-333",
     "title": "You Are the Placebo",
     "author": "Joe Dispenza"
   },
   {
+    "id": "book-334",
     "title": "You Can Heal Your Life",
     "author": "Louise Hay"
   },
   {
+    "id": "book-335",
     "title": "You Need a Budget: The Proven System for Breaking the Paycheck-to-Paycheck Cycle, Getting Out of Debt, and Living the Life You Want",
     "author": "Jesse Mecham"
   },
   {
+    "id": "book-336",
     "title": "Your Money and Your Brain",
     "author": "Jason Zweig"
   },
   {
+    "id": "book-337",
     "title": "Zen and the Art of Motorcycle Maintenance",
     "author": "Robert M. Pirsig"
   },
   {
+    "id": "book-338",
     "title": "Zero to One: Notes on Startups, or How to build the future",
     "author": "Peter Thiel"
   }
