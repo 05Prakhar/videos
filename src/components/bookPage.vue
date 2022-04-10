@@ -15,10 +15,10 @@
         @click="openModal(book)"
       >
         <div>{{ book.title }}</div>
-        <!-- <div>{{ book.category }}</div>
+        <!-- <div>{{ book.category }}</div> -->
         <div>{{ book.author }}</div>
         <img :src="book.imageURL" :alt="book.title" />
-        <div>{{ book.amazonURL }}</div>
+        <!-- <div>{{ book.amazonURL }}</div>
         <div>{{ book.flipkartURL }}</div>
         <div>{{ book.downloadURL }}</div> -->
       </div>
@@ -146,5 +146,8 @@ input {
   color: #000;
   text-decoration: none;
   cursor: pointer;
+}
+img {
+  height: 350px;
 }
 </style>

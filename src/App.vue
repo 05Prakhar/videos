@@ -14,10 +14,10 @@
         Youtube
       </li>
       <li
-        :class="{ 'active-header': selectedHeader === 'CourseraPage' }"
-        @click="navigate('CourseraPage')"
+        :class="{ 'active-header': selectedHeader === 'CoursePage' }"
+        @click="navigate('CoursePage')"
       >
-        Coursera Courses
+        Courses
       </li>
       <li
         :class="{ 'active-header': selectedHeader === 'ArticlePage' }"
@@ -31,6 +31,7 @@
       >
         Add
       </li>
+      <li>Suggestions</li>
     </ul>
   </div>
   <router-view />
@@ -80,11 +81,12 @@ body {
   margin: 30px 35px;
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
+  justify-content: center;
   border-radius: 5px;
 }
 .header-container ul {
   padding: 0;
+  list-style-type: none;
 }
 .header-container ul .active-header {
   box-shadow: 2px 2px 8px 1px rgba(0, 0, 0, 0.2),
@@ -94,6 +96,7 @@ body {
 .header-container ul li {
   display: inline-block;
   margin-right: 2em;
+  margin-bottom: 1em;
   padding: 1em 1.5em;
   box-shadow: -2px -2px 8px 1px rgba(161, 161, 201, 0.2),
     2px 2px 8px 1px rgba(0, 0, 0, 0.8);
@@ -116,5 +119,11 @@ body {
       inset -1px -1px 5px 1px rgba(255, 255, 255, 0.2),
       inset 2px 2px 8px 1px rgba(74, 24, 2, 0.8);
   } */
+}
+@media (max-width: 500px) {
+  .header-container ul li {
+    display: list-item;
+    margin-right: 0;
+  }
 }
 </style>

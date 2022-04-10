@@ -1,86 +1,69 @@
 [
   {
-    "id": "course-0",
     "title": "AI Product Management Specialization",
     "link": "https://www.coursera.org/specializations/ai-product-management-duke"
   },
   {
-    "id": "course-1",
     "title": "Advanced Business Analytics Specialization",
     "link": "https://www.coursera.org/specializations/data-analytics-business"
   },
   {
-    "id": "course-2",
     "title": "Blockchain Specialization",
     "link": "https://www.coursera.org/specializations/uci-blockchain"
   },
   {
-    "id": "course-3",
     "title": "Branding: The Creative Journey Specialization",
     "link": "https://www.coursera.org/specializations/branding-the-creative-journey"
   },
   {
-    "id": "course-4",
     "title": "Business Strategy Specialization",
     "link": "https://www.coursera.org/specializations/business-strategy"
   },
   {
-    "id": "course-5",
     "title": "Data Visualization with Tableau Specialization",
     "link": "https://www.coursera.org/specializations/data-visualization"
   },
   {
-    "id": "course-6",
     "title": "Entrepreneurship: Growing Your Business Specialization",
     "link": "https://www.coursera.org/specializations/entrepreneurship-growing-your-business"
   },
   {
-    "id": "course-7",
     "title": "Fintech: Foundations & Applications of Financial Technology Specialization",
     "link": "https://www.coursera.org/specializations/wharton-fintech"
   },
   {
-    "id": "course-8",
     "title": "Globalization, Economic Growth and Stability Specialization",
     "link": "https://www.coursera.org/specializations/globalization-economic-growth-and-stability"
   },
   {
-    "id": "course-9",
     "title": "IBM Data Analyst Professional Certificate",
     "link": "https://www.coursera.org/professional-certificates/ibm-data-analyst"
   },
   {
-    "id": "course-10",
     "title": "Investment Management Specialization",
     "link": "https://www.coursera.org/specializations/investment-management"
   },
   {
-    "id": "course-11",
     "title": "Managerial Economics and Business Analysis Specialization",
     "link": "https://www.coursera.org/specializations/managerial-economics-business-analysis"
   },
   {
-    "id": "course-12",
     "title": "Marketing Mix Implementation Specialization",
     "link": "https://www.coursera.org/specializations/marketing-mix"
   },
   {
-    "id": "course-13",
     "title": "Sports Performance Analytics Specialization",
     "link": "https://www.coursera.org/specializations/sports-analytics"
   },
   {
-    "id": "course-14",
     "title": "Strategic Business Analytics Specialization",
     "link": "https://www.coursera.org/specializations/strategic-analytics"
   },
   {
-    "id": "course-15",
     "title": "Strategic Leadership and Management Specialization",
     "link": "https://www.coursera.org/specializations/strategic-leadership"
   },
   {
-    "id": "course-16",
     "title": "Strategic Management and Innovation Specialization",
     "link": "https://www.coursera.org/specializations/strategic-management"
   }
