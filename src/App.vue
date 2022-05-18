@@ -25,13 +25,19 @@
       >
         Articles
       </li>
+      <li>Web3</li>
+      <li
+        :class="{ 'active-header': selectedHeader === 'SuggestionsPage' }"
+        @click="navigate('SuggestionsPage')"
+      >
+        Suggestions
+      </li>
       <li
         :class="{ 'active-header': selectedHeader === 'AddPage' }"
         @click="navigate('AddPage')"
       >
         Add
       </li>
-      <li>Suggestions</li>
     </ul>
   </div>
   <router-view />
@@ -83,6 +89,8 @@ body {
   flex-direction: row;
   justify-content: center;
   border-radius: 5px;
+  position: sticky;
+  top: 0;
 }
 .header-container ul {
   padding: 0;

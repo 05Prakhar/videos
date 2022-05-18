@@ -1,20 +1,24 @@
 <template>
   <section>
-    <input type="text" placeholder="Search By Article" v-model="searchArticle" />
-    <!-- Filter -->
-    <div class="article-container">
+    <input
+      type="text"
+      placeholder="Search By Channel Title"
+      v-model="searchYT"
+    >
+    <div class="yt-container">
       <div
-        class="article-card"
-        v-for="(article, index) in filteredArticles"
+        class="yt-card"
+        v-for="(yt, index) in filteredYT"
         :key="index"
-        @click="openModal(article)"
+        @click="openModal(yt)"
       >
-        <div>{{ article.title }}</div>
+        <img :src="`https://yt3.ggpht.com/${yt.link}`" :alt="yt.title" />
+        <div>{{ yt.title }}</div>
       </div>
-      <div v-if="isModalOpen" class="article-modal">
-        <div class="article-modal-content">
+      <div v-if="isModalOpen" class="yt-modal">
+        <div class="yt-modal-content">
           <span class="close" @click="closeModal">&times;</span>
-          <div class="article-modal-container"></div>
+          <div class="yt-modal-container"></div>
         </div>
       </div>
     </div>
@@ -22,32 +26,31 @@
 </template>
 
 <script>
-import { Courses } from "@/data";
+import { YouTube } from "@/data";
 
 export default {
-  name: "ArticlePage",
+  name: "YTPage",
   data() {
     return {
-      Courses,
-      searchArticle: "",
-      selectedArticle: {},
+      YouTube,
+      searchYT: "",
+      selectedYT: {},
       isModalOpen: false,
     };
   },
   computed: {
-    filteredArticles() {
-      return this.searchArticle !== ""
-        ? this.Courses.filter(
+    filteredYT() {
+      return this.searchYT !== ""
+        ? this.YouTube.filter(
             (el) =>
-              el.title.toLowerCase().search(this.searchArticle.toLowerCase()) !==
-              -1
+              el.title.toLowerCase().search(this.searchYT.toLowerCase()) !== -1
           )
-        : this.Courses;
+        : this.YouTube;
     },
   },
   methods: {
-    openModal(articleDetails) {
-      this.selectedArticle = articleDetails;
+    openModal(ytDetails) {
+      this.selectedYT = ytDetails;
       this.isModalOpen = true;
     },
     closeModal() {
@@ -59,7 +62,6 @@ export default {
 
 <style scoped>
 section {
-  margin: 25px auto 50px auto;
   text-align: center;
 }
 input::placeholder {
@@ -76,19 +78,21 @@ input {
   border: none;
   box-sizing: border-box;
   box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
+  position: sticky;
+  top: 150px;
 }
-.article-container {
+.yt-container {
   margin: 20px 15px;
   display: grid;
   grid-gap: 1rem;
 }
-.article-card {
+.yt-card {
   border-radius: 10px;
   box-shadow: 6px 6px 6px #cbced1, -6px -6px 6px white;
 }
 
 /* The Modal (background) */
-.article-modal {
+.yt-modal {
   position: fixed; /* Stay in place */
   z-index: 1; /* Sit on top */
   padding-top: 100px; /* Location of the box */
@@ -101,7 +105,7 @@ input {
   background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
 }
 /* Modal Content */
-.article-modal-content {
+.yt-modal-content {
   background-color: #fefefe;
   margin: auto;
   padding: 20px;

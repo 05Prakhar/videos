@@ -1,20 +1,33 @@
 <template>
   <section>
-    <input type="text" placeholder="Search By Course" v-model="searchCourse" />
+    <input
+      type="text"
+      placeholder="Search By Book Title or Author"
+      v-model="searchBook"
+    >
     <!-- Filter -->
-    <div class="course-container">
+    <div class="book-container">
       <div
-        class="course-card"
-        v-for="(course, index) in filteredCourses"
+        class="book-card"
+        v-for="(book, index) in filteredBooks"
         :key="index"
-        @click="openModal(course)"
+        @click="openModal(book)"
       >
-        <div>{{ course.title }}</div>
+        <img :src="book.imageURL" :alt="book.title" />
+        <div class="text">
+          <div>{{ book.title }}</div>
+          <div>{{ book.category }}</div>
+          <div>{{ book.author }}</div>
+        </div>
       </div>
-      <div v-if="isModalOpen" class="course-modal">
-        <div class="course-modal-content">
+      <div v-if="isModalOpen" class="book-modal">
+        <div class="book-modal-content">
           <span class="close" @click="closeModal">&times;</span>
-          <div class="course-modal-container"></div>
+          <div class="book-modal-container">
+            <!-- <div>{{ book.amazonURL }}</div>
+            <div>{{ book.flipkartURL }}</div>
+            <div>{{ book.downloadURL }}</div> -->
+          </div>
         </div>
       </div>
     </div>
@@ -22,32 +35,32 @@
 </template>
 
 <script>
-import { Courses } from "@/data";
+import { Books } from "@/data";
 
 export default {
-  name: "CourseraPage",
+  name: "BookPage",
   data() {
     return {
-      Courses,
-      searchCourse: "",
-      selectedCourse: {},
+      Books,
+      searchBook: "",
+      selectedBook: {},
       isModalOpen: false,
     };
   },
   computed: {
-    filteredCourses() {
-      return this.searchCourse !== ""
-        ? this.Courses.filter(
+    filteredBooks() {
+      return this.searchBook !== ""
+        ? this.Books.filter(
             (el) =>
-              el.title.toLowerCase().search(this.searchCourse.toLowerCase()) !==
+              el.title.toLowerCase().search(this.searchBook.toLowerCase()) !==
               -1
           )
-        : this.Courses;
+        : this.Books;
     },
   },
   methods: {
-    openModal(courseDetails) {
-      this.selectedCourse = courseDetails;
+    openModal(bookDetails) {
+      this.selectedBook = bookDetails;
       this.isModalOpen = true;
     },
     closeModal() {
@@ -59,7 +72,6 @@ export default {
 
 <style scoped>
 section {
-  margin: 25px auto 50px auto;
   text-align: center;
 }
 input::placeholder {
@@ -76,19 +88,42 @@ input {
   border: none;
   box-sizing: border-box;
   box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
+  position: sticky;
+  top: 150px;
 }
-.course-container {
+.book-container {
   margin: 20px 15px;
   display: grid;
   grid-gap: 1rem;
 }
-.course-card {
+@media (min-width: 600px) and (max-width: 900px) {
+  .book-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (min-width: 900px) and (max-width: 1200px) {
+  .book-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (min-width: 1200px) {
+  .book-container {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+.book-card {
   border-radius: 10px;
   box-shadow: 6px 6px 6px #cbced1, -6px -6px 6px white;
+  justify-self: center;
+  width: 250px;
+}
+img {
+  height: 350px;
+  width: inherit;
 }
 
 /* The Modal (background) */
-.course-modal {
+.book-modal {
   position: fixed; /* Stay in place */
   z-index: 1; /* Sit on top */
   padding-top: 100px; /* Location of the box */
@@ -101,7 +136,7 @@ input {
   background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
 }
 /* Modal Content */
-.course-modal-content {
+.book-modal-content {
   background-color: #fefefe;
   margin: auto;
   padding: 20px;

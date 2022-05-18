@@ -1,24 +1,20 @@
 <template>
   <section>
-    <input
-      type="text"
-      placeholder="Search By Channel Title"
-      v-model="searchYT"
-    />
-    <div class="yt-container">
+    <input type="text" placeholder="Search By Course" v-model="searchCourse">
+    <!-- Filter -->
+    <div class="course-container">
       <div
-        class="yt-card"
-        v-for="(yt, index) in filteredYT"
+        class="course-card"
+        v-for="(course, index) in filteredCourses"
         :key="index"
-        @click="openModal(yt)"
+        @click="openModal(course)"
       >
-        <img :src="`https://yt3.ggpht.com/${yt.link}`" :alt="yt.title" />
-        <div>{{ yt.title }}</div>
+        <div>{{ course.title }}</div>
       </div>
-      <div v-if="isModalOpen" class="yt-modal">
-        <div class="yt-modal-content">
+      <div v-if="isModalOpen" class="course-modal">
+        <div class="course-modal-content">
           <span class="close" @click="closeModal">&times;</span>
-          <div class="yt-modal-container"></div>
+          <div class="course-modal-container"></div>
         </div>
       </div>
     </div>
@@ -26,31 +22,32 @@
 </template>
 
 <script>
-import { YouTube } from "@/data";
+import { Courses } from "@/data";
 
 export default {
-  name: "YTPage",
+  name: "CourseraPage",
   data() {
     return {
-      YouTube,
-      searchYT: "",
-      selectedYT: {},
+      Courses,
+      searchCourse: "",
+      selectedCourse: {},
       isModalOpen: false,
     };
   },
   computed: {
-    filteredYT() {
-      return this.searchYT !== ""
-        ? this.YouTube.filter(
+    filteredCourses() {
+      return this.searchCourse !== ""
+        ? this.Courses.filter(
             (el) =>
-              el.title.toLowerCase().search(this.searchYT.toLowerCase()) !== -1
+              el.title.toLowerCase().search(this.searchCourse.toLowerCase()) !==
+              -1
           )
-        : this.YouTube;
+        : this.Courses;
     },
   },
   methods: {
-    openModal(ytDetails) {
-      this.selectedYT = ytDetails;
+    openModal(courseDetails) {
+      this.selectedCourse = courseDetails;
       this.isModalOpen = true;
     },
     closeModal() {
@@ -62,7 +59,6 @@ export default {
 
 <style scoped>
 section {
-  margin: 25px auto 50px auto;
   text-align: center;
 }
 input::placeholder {
@@ -79,19 +75,21 @@ input {
   border: none;
   box-sizing: border-box;
   box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
+  position: sticky;
+  top: 150px;
 }
-.yt-container {
+.course-container {
   margin: 20px 15px;
   display: grid;
   grid-gap: 1rem;
 }
-.yt-card {
+.course-card {
   border-radius: 10px;
   box-shadow: 6px 6px 6px #cbced1, -6px -6px 6px white;
 }
 
 /* The Modal (background) */
-.yt-modal {
+.course-modal {
   position: fixed; /* Stay in place */
   z-index: 1; /* Sit on top */
   padding-top: 100px; /* Location of the box */
@@ -104,7 +102,7 @@ input {
   background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
 }
 /* Modal Content */
-.yt-modal-content {
+.course-modal-content {
   background-color: #fefefe;
   margin: auto;
   padding: 20px;

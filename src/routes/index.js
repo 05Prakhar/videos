@@ -1,4 +1,4 @@
-import { BookPage, YTPage, CoursePage, ArticlePage, AddPage } from '@/components';
+import { BookPage, YTPage, CoursePage, ArticlePage, SuggestionsPage, AddPage } from '@/pages';
 
 const routes = [
 	{
@@ -20,6 +20,11 @@ const routes = [
 		path: '/articles',
 		name: 'ArticlePage',
 		component: ArticlePage,
+	},
+	{
+		path: '/suggestions',
+		name: 'SuggestionsPage',
+		component: SuggestionsPage,
 	},
 	{
 		path: '/add',

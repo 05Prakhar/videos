@@ -4,6 +4,6 @@ import CourseList from './CourseList.json';
 
 export {
   BookList as Books,
-  YTChannels as YouTube,
   CourseList as Courses,
+  YTChannels as YouTube,
 };

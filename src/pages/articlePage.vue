@@ -2,30 +2,23 @@
   <section>
     <input
       type="text"
-      placeholder="Search By Book Title or Author"
-      v-model="searchBook"
-      @input="onSearch"
-    />
+      placeholder="Search By Article"
+      v-model="searchArticle"
+    >
     <!-- Filter -->
-    <div class="book-container">
+    <div class="article-container">
       <div
-        class="book-card"
-        v-for="(book, index) in filteredBooks"
+        class="article-card"
+        v-for="(article, index) in filteredArticles"
         :key="index"
-        @click="openModal(book)"
+        @click="openModal(article)"
       >
-        <div>{{ book.title }}</div>
-        <!-- <div>{{ book.category }}</div> -->
-        <div>{{ book.author }}</div>
-        <img :src="book.imageURL" :alt="book.title" />
-        <!-- <div>{{ book.amazonURL }}</div>
-        <div>{{ book.flipkartURL }}</div>
-        <div>{{ book.downloadURL }}</div> -->
+        <div>{{ article.title }}</div>
       </div>
-      <div v-if="isModalOpen" class="book-modal">
-        <div class="book-modal-content">
+      <div v-if="isModalOpen" class="article-modal">
+        <div class="article-modal-content">
           <span class="close" @click="closeModal">&times;</span>
-          <div class="book-modal-container"></div>
+          <div class="article-modal-container" />
         </div>
       </div>
     </div>
@@ -33,32 +26,32 @@
 </template>
 
 <script>
-import { Books } from "@/data";
+import { Courses } from "@/data";
 
 export default {
-  name: "BookPage",
+  name: "ArticlePage",
   data() {
     return {
-      Books,
-      searchBook: "",
-      selectedBook: {},
+      Courses,
+      searchArticle: "",
+      selectedArticle: {},
       isModalOpen: false,
     };
   },
   computed: {
-    filteredBooks() {
-      return this.searchBook !== ""
-        ? this.Books.filter(
+    filteredArticles() {
+      return this.searchArticle !== ""
+        ? this.Courses.filter(
             (el) =>
-              el.title.toLowerCase().search(this.searchBook.toLowerCase()) !==
+              el.title.toLowerCase().search(this.searchArticle.toLowerCase()) !==
               -1
           )
-        : this.Books;
+        : this.Courses;
     },
   },
   methods: {
-    openModal(bookDetails) {
-      this.selectedBook = bookDetails;
+    openModal(articleDetails) {
+      this.selectedArticle = articleDetails;
       this.isModalOpen = true;
     },
     closeModal() {
@@ -70,7 +63,6 @@ export default {
 
 <style scoped>
 section {
-  margin: 25px auto 50px auto;
   text-align: center;
 }
 input::placeholder {
@@ -87,34 +79,21 @@ input {
   border: none;
   box-sizing: border-box;
   box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
+  position: sticky;
+  top: 150px;
 }
-.book-container {
+.article-container {
   margin: 20px 15px;
   display: grid;
   grid-gap: 1rem;
 }
-@media (min-width: 600px) and (max-width: 900px) {
-  .book-container {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-@media (min-width: 900px) and (max-width: 1200px) {
-  .book-container {
-    grid-template-columns: repeat(3, 1fr);
-  }
-}
-@media (min-width: 1200px) {
-  .book-container {
-    grid-template-columns: repeat(4, 1fr);
-  }
-}
-.book-card {
+.article-card {
   border-radius: 10px;
   box-shadow: 6px 6px 6px #cbced1, -6px -6px 6px white;
 }
 
 /* The Modal (background) */
-.book-modal {
+.article-modal {
   position: fixed; /* Stay in place */
   z-index: 1; /* Sit on top */
   padding-top: 100px; /* Location of the box */
@@ -127,7 +106,7 @@ input {
   background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
 }
 /* Modal Content */
-.book-modal-content {
+.article-modal-content {
   background-color: #fefefe;
   margin: auto;
   padding: 20px;
@@ -146,8 +125,5 @@ input {
   color: #000;
   text-decoration: none;
   cursor: pointer;
-}
-img {
-  height: 350px;
 }
 </style>
