@@ -48,6 +48,7 @@ export default {
     };
   },
   computed: {
+    ...mapGetters('state', ['getAllBooks']),
     filteredBooks() {
       return this.searchBook !== ""
         ? this.Books.filter(
@@ -59,6 +60,7 @@ export default {
     },
   },
   methods: {
+    ...mapActions('state', ['fetchAllBooks']),
     openModal(bookDetails) {
       this.selectedBook = bookDetails;
       this.isModalOpen = true;
